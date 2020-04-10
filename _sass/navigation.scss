@@ -17,7 +17,7 @@
 }
 
 nav {
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-size: .8em;
 	width: 100%;
 	position: relative;
@@ -39,7 +39,7 @@ nav {
 
 		@media #{$mid-point} {
 			display: inline;
-			border-bottom: 1px solid rgba(255,255,255,0);
+			border-bottom: 1px solid rgb(255, 255, 255);
 			color: rgba(255,255,255,.8);
 		}
 
@@ -64,7 +64,7 @@ nav {
 	}
 
 	a.active {
-		border-bottom: 5px solid #ffa74d;
+		border-bottom: 2px solid #000000;
 	}
 
 }

@@ -58,7 +58,7 @@ p, address, ul {
 .hero {
   color: #ffffff;
   text-align: center;
-  height: 100vh;
+  height: 75vh;
   min-height: 550px;
   background-color: #333;
   background-repeat: no-repeat;
@@ -383,7 +383,7 @@ header {
     header.header-background .light-logo {
       display: none; }
   header a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     z-index: 1;
     position: relative;
@@ -416,6 +416,10 @@ header {
 
 .subtext {
   margin-top: 10px; }
+  .subtext a {
+    color: #ffffff;
+    margin: 5px;
+    text-align: center; }
 
 .cta {
   margin: 25px 0 0 0; }
@@ -730,7 +734,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
         display: inline; } }
 
 nav {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: .8em;
   width: 100%;
   position: relative;
@@ -749,7 +753,7 @@ nav {
     @media (min-width: 1620px) {
       nav a {
         display: inline;
-        border-bottom: 1px solid rgba(255, 255, 255, 0);
+        border-bottom: 1px solid white;
         color: rgba(255, 255, 255, 0.8); } }
     nav a.nav-toggle {
       display: inline;
@@ -766,7 +770,7 @@ nav {
       nav a.nav-toggle:hover {
         border: 0; }
   nav a.active {
-    border-bottom: 5px solid #ffa74d; }
+    border-bottom: 2px solid #000000; }
 
 footer {
   font-size: .6em;
