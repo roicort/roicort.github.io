@@ -1,75 +1,76 @@
-# Particle Jekyll Theme
+# Frisco
 
-![](./particle.jpg)
+App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
+Increase the web presence of a App with this configurable theme.
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+![Frisco template screenshot](images/_screenshot.jpg)
 
-The Theme features:
+Frisco was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-## Basic Setup
+## Features
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the particle theme: `git clone https://github.com/nrandecker/particle.git`
-3. Edit `_config.yml` to personalize your site.
+* Contact form
+* Pre-built pages
+* Pre-styled components
+* Blog with pagination
+* Post category pages
+* Disqus comments for posts
+* Staff and author system
+* Configurable footer
+* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* RSS/Atom feed
+* SEO tags
+* Google Analytics
 
-## Site and User Settings
+## Setup
 
-You have to fill some informations on `_config.yml` to customize your site.
+1. Add your site and author details in `_config.yml`.
+2. Add your Google Analytics and Disqus keys to `_config.yml`.
+3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+## Develop
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
+Frisco was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
-**Don't forget to change your url before you deploy your site!**
+Install the dependencies with [Bundler](http://bundler.io/):
 
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+~~~bash
+$ bundle install
+~~~
 
-## Running the blog in local
+Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+~~~bash
+$ bundle exec jekyll serve
+~~~
 
-- Install [NodeJS](https://nodejs.org/)
-- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
-- Install dependencies: `yarn`
-- Run: `gulp`
+## Editing
 
-## Questions
+Frisco is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
 
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
+### Posts
 
-## License
+* Add, update or remove a post in the *Posts* collection.
+* The **Staff Author** field links to members in the **Staff Members** collection.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+* Change the defaults when new posts are created in `_posts/_defaults.md`.
 
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+### Contact Form
 
-## Credits
+* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
 
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+### Staff
+
+* Reused around the site to save multiple editing locations.
+
+### Footer
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Navigation* section.
+
+### Footer
+
+* Exposed as a data file to give clients better access.
+* Set in the *Data* / *Footer* section.
