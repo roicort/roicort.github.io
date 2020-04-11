@@ -7,7 +7,7 @@
   display: flex; }
 
 html {
-  background: #2b2b40; }
+  background: #1a222c; }
 
 html, body {
   margin: 0;
@@ -738,7 +738,7 @@ nav {
   font-size: .8em;
   width: 100%;
   position: relative;
-  top: -7px;
+  top: -9px;
   text-shadow: none;
   text-align: center; }
   @media (min-width: 1620px) {
@@ -775,7 +775,7 @@ nav {
 footer {
   font-size: .6em;
   position: relative;
-  background: #2b2b40;
+  background: #1a222c;
   color: #fff; }
   footer,
   footer a {

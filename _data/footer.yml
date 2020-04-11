@@ -1,7 +1,7 @@
 left_links:
-  - name: Proyects
-    link: /proyects/
-  - name: Contact
+  - name: projects
+    link: /projects/
+  - name: contact
     link: /contact/
 right_links:
   - name:

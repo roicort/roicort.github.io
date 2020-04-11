@@ -46,7 +46,7 @@ collections:
     _icon: account_circle
 
 paginate: 10
-paginate_path: "/proyects/:num/"
+paginate_path: "/projects/:num/"
 
 jekyll-archives:
   enabled: ['categories']
