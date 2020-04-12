@@ -1,8 +1,10 @@
 left_links:
+  - name: code
+    link: https://github.com/roicort
   - name: projects
     link: /projects/
-  - name: contact
-    link: /contact/
+  - name: design
+    link: /design/
 right_links:
   - name:
     link: https://facebook.com
