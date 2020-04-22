@@ -6,20 +6,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>musikkontroller | Portfolio</title>
+<title>musikkcontroller | Portfolio</title>
 <meta name="generator" content="Jekyll v3.8.4" />
-<meta property="og:title" content="musikkontroller" />
+<meta property="og:title" content="musikkcontroller" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="OSC interactive music controller" />
 <meta property="og:description" content="OSC interactive music controller" />
 <link rel="canonical" href="http://localhost:4000/music/2020/04/05/musikkontroller/" />
 <meta property="og:url" content="http://localhost:4000/music/2020/04/05/musikkontroller/" />
 <meta property="og:site_name" content="Portfolio" />
-<meta property="og:image" content="https://source.unsplash.com/collection/375719/2000x1322?a=.png" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-04-05T00:00:00+00:00" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"url":"http://localhost:4000/music/2020/04/05/musikkontroller/","headline":"musikkontroller","dateModified":"2020-04-05T00:00:00+00:00","datePublished":"2020-04-05T00:00:00+00:00","image":"https://source.unsplash.com/collection/375719/2000x1322?a=.png","description":"OSC interactive music controller","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/music/2020/04/05/musikkontroller/"},"@type":"BlogPosting","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"url":"http://localhost:4000/music/2020/04/05/musikkontroller/","headline":"musikkcontroller","dateModified":"2020-04-05T00:00:00+00:00","datePublished":"2020-04-05T00:00:00+00:00","image":"https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80","description":"OSC interactive music controller","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/music/2020/04/05/musikkontroller/"},"@type":"BlogPosting","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Portfolio" />
@@ -76,10 +76,10 @@
 			</div>
 		</header>
 
-		<section class="hero" style="background-image: url(https://source.unsplash.com/collection/375719/2000x1322?a=.png)">
+		<section class="hero" style="background-image: url(https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>musikkontroller</h1>
+			<h1>musikkcontroller</h1>
 			<p class="subtext">OSC interactive music controller</p>
 		</div>
 	</div>
@@ -99,17 +99,25 @@
 
 
 		<div class="post-content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>musikkcontroller is an mac os app that creates a bridge between your phone and your computer to send OSC data and create simple-to-use mobile music interfaces for MaxMSP, SuperCollider etc.</p>
 
-<p><img src="https://source.unsplash.com/random/1500x1000" alt="Checkmate" /></p>
+<p><img src="/images/screenshots/controller.png" alt="Checkmate" /></p>
 
-<h2 id="forms-of-friendship">Forms of friendship</h2>
+<h2 id="architecutre">Architecutre</h2>
 
-<p>Although there are many forms of friendship, some of which may vary from place to place, certain characteristics are present in many types of bond. Such characteristics include affection, sympathy, empathy, honesty, altruism, mutual understanding, and compassion, enjoyment of each other’s company, trust, and the ability to be oneself, express one’s feelings, and make mistakes without fear of judgment from the friend.</p>
+<p>When you open the app con your mac it promps for a PORT to rout OSC message in your localhost.</p>
 
-<p>While there is no practical limit on what types of people can form a friendship, friends tend to share common backgrounds, occupations, or interests and have similar demographics.</p>
+<p><img src="/images/screenshots/init.png" alt="Checkmate" /></p>
 
-<p><img src="https://source.unsplash.com/random/1500x1001" alt="Raspberries" /></p>
+<p>It deploys a simple EXPRESS-based server to deploy the interface to your phone. Using Websockets the page oxsn your phone communicates with a websocket bridge in musikkontroller that routes the websocket info to OSC in roder to be usable in any OSC capable app.</p>
+
+<p>A QRCODE is also used for making more simple openning the webapp on your phone. Simply scan the QRCODE and it will connect automatically.</p>
+
+<p><img src="/images/screenshots/qrcode.png" alt="Checkmate" /></p>
+
+<h2 id="code">Code</h2>
+
+<p>The code is available on <a href="https://github.com/roicort/musikkcontroller">Github</a></p>
 
 
 			<div class="blog-navigation">
