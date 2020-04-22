@@ -14,6 +14,6 @@ musikkontroller is an mac os app that creates a bridge between your phone and yo
 
 ## Architecutre
 
-When you open the app con your mac it promps for a PORT to rout OSC message in your localhost. It deploys a simple EXPRESS-based server to deploy the interface to your phone. Using Websockets the page on your phone communicates with a websocket server in the app and then musikkontroller routes the websocket info to OSC.
+When you open the app con your mac it promps for a PORT to rout OSC message in your localhost. It deploys a simple EXPRESS-based server to deploy the interface to your phone. Using Websockets the page on your phone communicates with a websocket bridge in musikkontroller that routes the websocket info to OSC in roder to be usable in any OSC capable app.
 
 ![Raspberries](https://source.unsplash.com/random/1500x1001)
