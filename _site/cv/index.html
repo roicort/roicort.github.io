@@ -15,9 +15,9 @@
 <link rel="canonical" href="http://localhost:4000/cv/" />
 <meta property="og:url" content="http://localhost:4000/cv/" />
 <meta property="og:site_name" content="Portfolio" />
-<meta property="og:image" content="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
+<meta property="og:image" content="https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"url":"http://localhost:4000/cv/","headline":"CV","image":"https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80","description":"Keep up with the latest news.","@type":"WebPage","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"url":"http://localhost:4000/cv/","headline":"CV","image":"https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80","description":"Keep up with the latest news.","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Portfolio" />
@@ -75,21 +75,44 @@
 		</header>
 
 		<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 
 <body> 
 
-	<section class="hero" style="background-image: url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)">
+	<section class="hero" style="background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)">
 		<div class="inner-hero text-container">
 			<div class="hero-text-container">
 				<h1 class="editable">Curriculum Vitae</h1>
 				<p class="subtext editable">What I've done.</p>
+				<div class="cta button alt"><a href="/">Home</a></div>
+			</div>
+		</div>
+	</section>
+	<div class="content">
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Profile</h2>
+				<p class="editable">Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM, graduated from the Physical Mathematical Baccalaureate at the Marist High School, Valladolid. Interested in the sciences and the arts, but especially in their intersection.</p>
 			</div>
 		</div>
 	</section>
 
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Skills</h2>
+				<p class="editable">Advanced computer skills with knowledge in programming languages (Python, C++, Processing, Arduino) for data science and application development, Data Mining, Optimization and Artificial Intelligence.  Knowledge in Web development and Design (Adobe Suite), knowledge in electronics with the Arduino and Raspberry Pi platform, knowledge in Solfeggio and Piano. Ability to speak in a group, work and lead a team, experience in front of a group and spirit of social service.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	</div>
+
+
 <div id="timeline-content">
-	<br>
-	<br>
 	<ul class="timeline">
 
 	  <li class="event" data-date="65 Million B.C.">
@@ -100,6 +123,11 @@
 	  <li class="event" data-date="2015">
 		<h3>Started Information Technology In Science</h3>
 		<p>UNAM</p>    
+	  </li>
+
+	  <li class="event" data-date="2018">
+		<h3>Research Internship: Coevolutionary strategies for parameter adjustment in multi-objective evolutionary algorithms.</h3>
+		<p>Valparaiso, Chile.</p>    
 	  </li>
 
 	  <li class="event"  data-date="2019">
@@ -116,14 +144,15 @@
   </div>
 
 <div class="content">
-	<section class="info" id="learn-more">
+	<section class="info">
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Talks</h2>
-				<p class="editable">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/256x256" alt="Screenshot" />
+				<p class="editable"></p>
+				<ul>
+					<li>"Algorithm Opacity" - Open Data Day 2020</li>
+					<li>"Data Mining for Information Sciences" - UASLP México 2019</li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -132,10 +161,12 @@
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Teaching</h2>
-				<p class="editable">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/256x256" alt="Screenshot" />
+				<p class="editable"></p>
+				<ul>
+					<li>Asist. Professor "Algorithmic Composition", Music And Technology, ENES Morelia UNAM 2020-1 </li>
+					<li>Asist. Professor "Desition Theory", Information Technology, ENES Morelia UNAM 2020-1 </li>
+					<li>Asist. Professor "Microcontrollers", Music And Technology, ENES Morelia UNAM 2020-1 </li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -143,20 +174,65 @@
 	<section class="info">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Participant</h2>
-				<p class="editable">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
-			<div class="image">
-				<img class="editable" src="http://placehold.it/256x256" alt="Screenshot" />
+				<h2 class="editable">Others</h2>
+				<p class="editable"></p>
+				<ul>
+					<li>ICPC México 2019</li>
+					<li>ACM - ICPC México 2018</li>
+				</ul>
 			</div>
 		</div>
 	</section>
 </div>
 
-
+<section class="info">
+	<div class="container flex">
+		<div class="text">
+			<h2 class="editable">Lenguages</h2>
+			<ul>
+				<li>Español - Native</li>
+				<li>Français - DELF B1, UMSNH B2</li>
+				<li>English - TOEFL 590</li>
+				<li>汉语 - HSK 1</li>
+				<li>Русский (Currently Learning)</li>
+			</ul>
+		</div>
+		<div class="image">
+			<canvas id="myRadarChart" width="25" height="25"></canvas>
+		</div>
+	</div>
+</section>
 
 
 </body>
+
+<script>
+	var ctx = document.getElementById('myRadarChart').getContext('2d');
+	var myRadarChart = new Chart(ctx, {
+		type: 'radar',
+		data: {
+		labels: ['Español', 'Français', 'English', '汉语','Русский'],
+		datasets: [{
+        data: [90, 80, 70, 25,15],
+			backgroundColor: 'rgba(0, 149, 182, 0.1)',
+			borderColor: 'rgba(0, 149, 182, 0.8)',
+			label:""
+		}]
+	},
+		options: {scale: {
+        angleLines: {
+            display: false
+        },
+        ticks: {
+            suggestedMin: 50,
+            suggestedMax: 100
+        }
+    }}
+	});
+	</script>
+
+
+
 
 		<footer>
 			<div class="container">
