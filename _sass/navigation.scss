@@ -36,11 +36,13 @@ nav {
 		padding: 14px 10px;
 		border: 0;
 		display: none;
+		color: #ffff;
 
 		@media #{$mid-point} {
 			display: inline;
 			border-bottom: 1px solid rgb(255, 255, 255);
 			color: rgba(255,255,255,.8);
+						color: $secondary;
 		}
 
 
@@ -55,6 +57,7 @@ nav {
 			padding: 0 !important;
 			@media #{$mid-point} {
 				display: none;
+
 			}
 
 			&:hover {
@@ -64,7 +67,9 @@ nav {
 	}
 
 	a.active {
-		border-bottom: 2px solid #000000;
+		border-bottom: 2px solid $secondary;
+		color: $secondary;
+		
 	}
 
 }

@@ -741,12 +741,14 @@ nav {
     margin: 0 3px;
     padding: 14px 10px;
     border: 0;
-    display: none; }
+    display: none;
+    color: #ffff; }
     @media (min-width: 1620px) {
       nav a {
         display: inline;
         border-bottom: 1px solid white;
-        color: rgba(255, 255, 255, 0.8); } }
+        color: rgba(255, 255, 255, 0.8);
+        color: #00a4ca; } }
     nav a.nav-toggle {
       display: inline;
       position: absolute;
@@ -762,7 +764,8 @@ nav {
       nav a.nav-toggle:hover {
         border: 0; }
   nav a.active {
-    border-bottom: 2px solid #000000; }
+    border-bottom: 2px solid #00a4ca;
+    color: #00a4ca; }
 
 footer {
   font-size: .6em;
