@@ -7,7 +7,7 @@
   display: flex; }
 
 html {
-  background: #1a222c; }
+  background: #1c4479; }
 
 html, body {
   margin: 0;
@@ -104,7 +104,7 @@ p, address, ul {
   .content section:nth-child(even) .flex {
     flex-direction: row-reverse; } }
 #particles-js {
-  background: linear-gradient(#1a222c, #00a4ca);
+  background: linear-gradient(#1c4479, #00a4ca);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -767,7 +767,7 @@ nav {
 footer {
   font-size: .6em;
   position: relative;
-  background: #1a222c;
+  background: #1c4479;
   color: #fff; }
   footer,
   footer a {
