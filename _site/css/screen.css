@@ -14,7 +14,7 @@ html, body {
   padding: 0; }
 
 body {
-  font-family: 'Rubik', sans-serif; }
+  font-family: 'Helvetica Nue', sans-serif; }
 
 a {
   color: #00a4ca;
@@ -64,14 +64,6 @@ p, address, ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  .hero:before {
-    content: "";
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0, rgba(0, 0, 0, 0) 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 300px; }
   .hero p {
     color: #fff; }
   .hero .inner-hero {
@@ -82,7 +74,7 @@ p, address, ul {
     width: 600px;
     text-align: left; }
     .hero .hero-text-container h1, .hero .hero-text-container h2, .hero .hero-text-container p, .hero .hero-text-container .button {
-      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
+      text-shadow: none; }
   .hero .hero-text-right {
     position: absolute;
     right: 0; }
@@ -112,7 +104,7 @@ p, address, ul {
   .content section:nth-child(even) .flex {
     flex-direction: row-reverse; } }
 #particles-js {
-  background: #1a222c;
+  background: linear-gradient(#1a222c, #00a4ca);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -367,9 +359,6 @@ header {
   header .container {
     line-height: 0; }
   header.header-background {
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #333;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: background-color 0.2s ease;
     text-shadow: none; }
     header.header-background a {
@@ -662,16 +651,16 @@ blockquote:before {
   padding: 30px; }
 
 .button a, input[type=submit] {
-  color: #6ba1f3;
+  color: #00a4ca;
   text-decoration: none;
-  border: 2px solid #6ba1f3;
+  border: 2px solid #00a4ca;
   transition: .2s ease-in-out;
   display: inline-block;
   padding: 16px 50px;
   background: #fff; }
 
 .button a:hover, input[type=submit]:hover {
-  background: #6ba1f3;
+  background: #00a4ca;
   color: #fff;
   cursor: pointer; }
 
@@ -682,7 +671,7 @@ blockquote:before {
 
 .button.alt a:hover {
   background: #fff;
-  color: #6ba1f3;
+  color: #00a4ca;
   text-shadow: none; }
 
 textarea, input, button, select {
@@ -762,7 +751,7 @@ nav {
       top: -7px;
       font-size: 1.9em;
       border: 0;
-      text-shadow: 0;
+      text-shadow: none;
       padding: 0 !important; }
       @media (min-width: 1620px) {
         nav a.nav-toggle {
@@ -779,7 +768,7 @@ footer {
   color: #fff; }
   footer,
   footer a {
-    color: #999; }
+    color: rgba(255, 255, 255, 0.705); }
   footer a {
     text-decoration: none;
     padding: 0 10px; }
@@ -802,7 +791,7 @@ footer {
       footer ul li a:hover {
         text-decoration: none; }
       footer ul li a svg {
-        fill: #999;
+        fill: rgba(255, 255, 255, 0.705);
         transition: fill 0.2s ease;
         vertical-align: middle;
         width: 18px;
@@ -828,7 +817,7 @@ footer {
   margin: 15px auto;
   float: left; }
   .copyright a {
-    color: #999; }
+    color: rgba(255, 255, 255, 0.705); }
   @media (min-width: 768px) {
     .copyright {
       text-align: center;

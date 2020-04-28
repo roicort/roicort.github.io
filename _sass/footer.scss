@@ -1,12 +1,12 @@
 footer {
 	font-size: .6em;
 	position: relative;
-	background: #1a222c;
+	background: $primary;
 	color: #fff;
 
 	&,
 	a {
-		color: #999;
+		color: $bottom-links;
 	}
 
 	a {
@@ -44,7 +44,7 @@ footer {
 					text-decoration: none;
 				}
 				svg {
-					fill: #999;
+					fill: $bottom-links;
 					transition: fill 0.2s ease;
 					vertical-align: middle;
 					width: 18px;
@@ -92,7 +92,7 @@ footer {
 	float: left;
 
 	a {
-		color: #999;
+		color: $bottom-links;
 	}
 
 	@media #{$desktop} {

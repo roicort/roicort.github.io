@@ -1,5 +1,5 @@
 html {
-	background: #1a222c;
+	background: $primary;
 }
 
 html, body {
@@ -8,11 +8,11 @@ html, body {
 }
 
 body {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Helvetica Nue', sans-serif;
 }
 
 a {
-	color: #00a4ca;
+	color: $secondary;
 	text-decoration: none;
 }
 

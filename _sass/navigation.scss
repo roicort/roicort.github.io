@@ -51,7 +51,7 @@ nav {
 			top: -7px;
 			font-size: 1.9em;
 			border: 0;
-			text-shadow: 0;
+			text-shadow: none;
 			padding: 0 !important;
 			@media #{$mid-point} {
 				display: none;
