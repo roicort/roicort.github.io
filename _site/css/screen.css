@@ -66,9 +66,6 @@ p, address, ul {
     font-weight: 100; }
     .hero .hero-text-container h1, .hero .hero-text-container h2, .hero .hero-text-container p, .hero .hero-text-container .button {
       text-shadow: none; }
-  .hero .hero-text-right {
-    position: absolute;
-    right: 0; }
 
 .image {
   text-align: center; }
@@ -773,13 +770,13 @@ footer {
       footer ul li a.rss-icon:hover svg {
         fill: #f26522; }
 
-.copyright {
+.name {
   margin: 15px auto;
   float: left; }
-  .copyright a {
+  .name a {
     color: rgba(255, 255, 255, 0.75); }
   @media (min-width: 768px) {
-    .copyright {
+    .name {
       text-align: center;
       float: none;
       padding: 16px 0;
