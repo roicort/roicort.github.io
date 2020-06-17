@@ -774,7 +774,8 @@ footer {
   margin: 15px auto;
   float: left; }
   .name a {
-    color: rgba(255, 255, 255, 0.75); }
+    color: rgba(255, 255, 255, 0.75);
+    padding: 0 0 0 0; }
   @media (min-width: 768px) {
     .name {
       text-align: center;
