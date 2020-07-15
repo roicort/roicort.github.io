@@ -41,8 +41,7 @@ nav {
 		@media #{$mid-point} {
 			display: inline;
 			border-bottom: 1px solid rgb(255, 255, 255);
-			color: rgba(255,255,255,.8);
-						color: $secondary;
+			color: $primary;
 		}
 
 
@@ -67,8 +66,8 @@ nav {
 	}
 
 	a.active {
-		border-bottom: 2px solid $secondary;
-		color: $secondary;
+		border-bottom: 2px solid $primary;
+		color: $primary;
 		
 	}
 

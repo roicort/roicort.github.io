@@ -1,12 +1,12 @@
 @charset "UTF-8";
 html {
-  background: #616d93; }
+  background: #323b58; }
 
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif; }
 
 a {
-  color: #e37b7c;
+  color: #ffff;
   text-decoration: none; }
 
 a:hover {
@@ -50,7 +50,7 @@ p, address, ul {
   text-align: center;
   height: 75vh;
   min-height: 550px;
-  background-color: #333;
+  background: linear-gradient(45deg, #e37b7c, #ffe4b4);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
@@ -92,7 +92,7 @@ p, address, ul {
   .content section:nth-child(even) .flex {
     flex-direction: row-reverse; } }
 #particles-js {
-  background: linear-gradient(45deg, #616d93 20%, #e37b7c 60%, #ffe4b4);
+  background: linear-gradient(45deg, #e37b7c, #ffe4b4);
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -699,7 +699,6 @@ nav {
       nav a {
         display: inline;
         border-bottom: 1px solid white;
-        color: rgba(255, 255, 255, 0.8);
         color: #e37b7c; } }
     nav a.nav-toggle {
       display: inline;
@@ -722,7 +721,7 @@ nav {
 footer {
   font-size: .8em;
   position: relative;
-  background: #616d93; }
+  background: #323b58; }
   footer,
   footer a {
     color: rgba(255, 255, 255, 0.75); }
