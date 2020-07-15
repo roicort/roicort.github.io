@@ -1,12 +1,12 @@
 @charset "UTF-8";
 html {
-  background: #323b58; }
+  background: #292B36; }
 
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif; }
 
 a {
-  color: #ffff;
+  color: #e37b7c;
   text-decoration: none; }
 
 a:hover {
@@ -48,12 +48,14 @@ p, address, ul {
 .hero {
   color: #ffffff;
   text-align: center;
-  height: 75vh;
-  min-height: 550px;
+  height: 50vh;
+  min-height: 450px;
   background: linear-gradient(45deg, #e37b7c, #ffe4b4);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
+  .hero a {
+    color: white; }
   .hero p {
     color: #fff; }
   .hero .inner-hero {
@@ -69,6 +71,13 @@ p, address, ul {
 
 .image {
   text-align: center; }
+  .image img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.img-png {
+  text-align: center; }
+  .img-png img {
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2)); }
 
 .bottom-cta {
   text-align: center; }
@@ -721,10 +730,10 @@ nav {
 footer {
   font-size: .8em;
   position: relative;
-  background: #323b58; }
+  background: #292B36; }
   footer,
   footer a {
-    color: rgba(255, 255, 255, 0.75); }
+    color: #ffffffbf; }
   footer a {
     text-decoration: none;
     padding: 0 10px; }
@@ -747,7 +756,7 @@ footer {
       footer ul li a:hover {
         text-decoration: none; }
       footer ul li a svg {
-        fill: rgba(255, 255, 255, 0.75);
+        fill: #ffffffbf;
         transition: fill 0.2s ease;
         vertical-align: middle;
         width: 18px;
@@ -773,7 +782,7 @@ footer {
   margin: 15px 8px;
   float: left; }
   .name a {
-    color: rgba(255, 255, 255, 0.75);
+    color: #ffffffbf;
     padding: 0 0 0 0; }
   @media (min-width: 768px) {
     .name {
