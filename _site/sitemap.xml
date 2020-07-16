@@ -30,4 +30,8 @@
 <url>
 <loc>http://localhost:4000/category/music/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/tesis/graphviz/</loc>
+<lastmod>2020-07-16T00:26:05+00:00</lastmod>
+</url>
 </urlset>

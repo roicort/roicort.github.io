@@ -326,6 +326,16 @@ p, address, ul {
   margin: 0;
   color: #fff; }
 
+#links-anime {
+  animation: 1s fadeIn;
+  animation-fill-mode: forwards;
+  visibility: hidden; }
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden; }
+  100% {
+    visibility: visible; } }
 .container, .text-container {
   margin: 0 auto;
   position: relative;
