@@ -12,7 +12,7 @@ musikkcontroller is an mac os app that creates a bridge between your phone and y
 
 ![Checkmate](/images/screenshots/controller.png)
 
-## Architecutre
+## Architecture
 
 When you open the app con your mac it promps for a PORT to rout OSC message in your localhost. 
 
