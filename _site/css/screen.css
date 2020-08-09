@@ -737,8 +737,8 @@ nav {
       nav a.nav-toggle:hover {
         border: 0; }
   nav a.active {
-    border-bottom: 2px solid #ffffff;
-    color: #ffffff; }
+    border-bottom: 2px solid #A443F6;
+    color: #A443F6; }
 
 footer {
   font-size: .8em;
