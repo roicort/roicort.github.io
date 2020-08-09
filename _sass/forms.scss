@@ -1,7 +1,7 @@
 .button a, input[type=submit] {
-	color: $primary;
+	color: $secondary;
 	text-decoration: none;
-	border: 1px solid $primary;
+	border: 1px solid $secondary;
 	transition: .2s ease-in-out;
 	display: inline-block;
 	padding: 16px 50px;
@@ -9,7 +9,7 @@
 }
 
 .button a:hover, input[type=submit]:hover {
-	background: $primary;
+	background: $secondary;
 	color: #fff;
 	cursor: pointer;
 }
@@ -22,7 +22,7 @@
 
 .button.alt a:hover {
 	background: #fff;
-	color: $primary;
+	color: $secondary;
 	text-shadow: none;
 }
 

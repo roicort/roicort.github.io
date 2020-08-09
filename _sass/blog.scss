@@ -88,6 +88,10 @@
 	.post-content {
 		padding: 0 0 40px 0;
 
+		a{
+			color: $secondary;
+		}
+
 		.button {
 			margin: 30px 0 0 0;
 		}
@@ -139,6 +143,7 @@
 	overflow: hidden;
 	a {
 		display: block;
+		color: $secondary;
 		width: 50%;
 		float: left;
 		margin: 1em 0;
