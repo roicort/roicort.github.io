@@ -1,3 +1,14 @@
+
+::selection {
+  color: black;
+  background-color: $secondary;
+} 
+
+::-moz-selection { /* Code for Firefox */
+	color: black;
+	background-color: $secondary;
+  }
+
 .container, .text-container {
 	margin: 0 auto;
 	position: relative;
