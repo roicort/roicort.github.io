@@ -10,7 +10,7 @@ author_staff_member: Rodrigo_Cortez
 
 Topología Sónica es un proyecto estudiantil que busca crear un Mapa Sonoro de México utilizando sistemas de infromación geográficos y una colección de sonidos alojada en SoundCloud.
 
-[Demo](topologiasonica.vercel.app)
+[Demo](https://topologiasonica.vercel.app)
 
 ![Checkmate](/images/ts/inicio.png)
 
