@@ -53,6 +53,10 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * "Algorithm Opacity" - Open Data Day 2020
 * "Data Mining for Information Sciences" - UASLP México 2019
 
+## Publications 
+
+* Co-author in ***"The use of an interactive music system as an aid for exploring sound in music education in a rural area"*** Revista Música (2020) [ [Paper](http://www.revistas.usp.br/revistamusica/article/view/170736/161967) ]
+
 ## Teaching
 
 * A. Professor "Algorithmic Composition", Music And Technology, ENES Morelia UNAM 2020-1

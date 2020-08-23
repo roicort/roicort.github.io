@@ -5,8 +5,8 @@ left_links:
     link: /projects/
   - name: design
     link: /design/
-  - name: cv
-    link: /cv/
+  - name: About
+    link: /about/
 right_links:
   - name:
     link: https://facebook.com
