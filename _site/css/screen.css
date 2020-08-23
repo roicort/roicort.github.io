@@ -55,7 +55,7 @@ p, address, ul { font-family: "Source Sans Pro", Helvetica, sans-serif; font-wei
 
 .header { z-index: 1; text-align: center; color: #000000; position: absolute; top: 50%; left: 50%; margin: 0 auto; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
-.header .site-title { font-size: 50px; display: block; line-height: 1; color: #000000; }
+.header .site-title { color: #000000; }
 
 @media only screen and (min-width: 550px) { .header .site-title { margin: 0; font-size: 90px; } }
 
