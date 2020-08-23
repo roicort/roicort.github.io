@@ -55,7 +55,7 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 
 ## Publications 
 
-* Co-author in ***"The use of an interactive music system as an aid for exploring sound in music education in a rural area"*** Revista Música (2020) [ [Paper](http://www.revistas.usp.br/revistamusica/article/view/170736/161967) ]
+* Co-author in *"The use of an interactive music system as an aid for exploring sound in music education in a rural area"* Revista Música (2020) [ [Paper](http://www.revistas.usp.br/revistamusica/article/view/170736/161967) ]
 
 ## Teaching
 
