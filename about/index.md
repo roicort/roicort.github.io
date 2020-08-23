@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitae
+title: About
 date: Today
 description: Some things I've done
 image: None
