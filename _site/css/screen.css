@@ -5,7 +5,7 @@ body { font-family: "Source Sans Pro", Helvetica, sans-serif; }
 
 a { color: #000000; text-decoration: none; }
 
-a:hover { text-decoration: underline; color: cyan; }
+a:hover { text-decoration: none; color: #f81ce5; }
 
 img { max-width: 100%; }
 
@@ -130,9 +130,9 @@ p, address, ul { font-family: "Source Sans Pro", Helvetica, sans-serif; font-wei
 @keyframes fadeIn { 99% { visibility: hidden; }
   100% { visibility: visible; } }
 
-::selection { color: black; background-color: cyan; }
+::selection { color: black; background-color: #f81ce5; }
 
-::-moz-selection { /* Code for Firefox */ color: black; background-color: cyan; }
+::-moz-selection { /* Code for Firefox */ color: black; background-color: #f81ce5; }
 
 .container, .text-container { margin: 0 auto; position: relative; padding: 0 20px; }
 
@@ -180,9 +180,9 @@ header .company-name img { height: 30px; width: auto; }
 
 .info:first-child { padding-top: 100px; }
 
-.subtext { margin-top: 10px; }
+.subtext { margin-top: 1em; }
 
-.subtext a { color: #00000fff; margin: 5px; text-align: center; }
+.subtext a { margin: 5px; text-align: center; }
 
 .cta { margin: 25px 0 0 0; }
 
@@ -266,7 +266,7 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .blog-post .post-content { padding: 0 0 40px 0; }
 
-.blog-post .post-content a { color: cyan; }
+.blog-post .post-content a { color: #f81ce5; }
 
 .blog-post .post-content .button { margin: 30px 0 0 0; }
 
@@ -286,19 +286,19 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .blog-navigation { font-size: 14px; display: block; width: auto; overflow: hidden; }
 
-.blog-navigation a { display: block; color: cyan; width: 50%; float: left; margin: 1em 0; }
+.blog-navigation a { display: block; color: #f81ce5; width: 50%; float: left; margin: 1em 0; }
 
 .blog-navigation .next { text-align: right; }
 
 .pagination { padding: 30px; }
 
-.button a, input[type=submit] { color: cyan; text-decoration: none; border: 1px solid cyan; transition: .2s ease-in-out; display: inline-block; padding: 16px 50px; background: #fff; }
+.button a, input[type=submit] { color: #f81ce5; text-decoration: none; border: 1px solid #f81ce5; transition: .2s ease-in-out; display: inline-block; padding: 16px 50px; background: #fff; }
 
-.button a:hover, input[type=submit]:hover { background: cyan; color: #fff; cursor: pointer; }
+.button a:hover, input[type=submit]:hover { background: #f81ce5; color: #fff; cursor: pointer; }
 
 .button.alt a { background: rgba(255, 255, 255, 0); border: 2px solid white; color: #fff; }
 
-.button.alt a:hover { background: #fff; color: cyan; text-shadow: none; }
+.button.alt a:hover { background: #fff; color: #f81ce5; text-shadow: none; }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
@@ -336,7 +336,7 @@ nav a.nav-toggle { display: inline; position: absolute; right: 10px; top: -7px; 
 
 nav a.nav-toggle:hover { border: 0; }
 
-nav a.active { border-bottom: 2px solid cyan; color: cyan; }
+nav a.active { border-bottom: 2px solid #f81ce5; color: #f81ce5; }
 
 footer { font-size: .8em; position: relative; background: #000000; }
 
@@ -344,7 +344,7 @@ footer, footer a { color: #ffffffbf; }
 
 footer a { text-decoration: none; padding: 0 10px; }
 
-footer a:hover { color: cyan; }
+footer a:hover { color: #f81ce5; }
 
 footer ul { padding: 0; margin: 0; }
 
@@ -390,7 +390,7 @@ body { background: #ffffff; font-size: 16px; }
 #timeline-content { margin-top: 50px; text-align: center; margin-left: 20vh; }
 
 /* Timeline */
-.timeline { border-left: 4px solid cyan; border-bottom-right-radius: 4px; border-top-right-radius: 4px; color: rgba(0, 0, 0, 0.8); margin: 100px auto; letter-spacing: 0.5px; position: relative; line-height: 1.4em; font-size: 1.03em; padding: 50px; list-style: none; text-align: left; font-weight: 100; max-width: 50%; }
+.timeline { border-left: 4px solid #f81ce5; border-bottom-right-radius: 4px; border-top-right-radius: 4px; color: rgba(0, 0, 0, 0.8); margin: 100px auto; letter-spacing: 0.5px; position: relative; line-height: 1.4em; font-size: 1.03em; padding: 50px; list-style: none; text-align: left; font-weight: 100; max-width: 50%; }
 
 .timeline h1 { letter-spacing: 1.5px; font-weight: 100; font-size: 1.4em; }
 
@@ -404,6 +404,6 @@ body { background: #ffffff; font-size: 16px; }
 
 .timeline .event:before { left: -217.5px; color: rgba(0, 0, 0, 0.4); content: attr(data-date); text-align: right; font-weight: 100; font-size: 0.9em; min-width: 120px; }
 
-.timeline .event:after { box-shadow: 0 0 0 4px cyan; left: -57.85px; background: #ffffff; border-radius: 50%; height: 11px; width: 11px; content: ""; top: 5px; }
+.timeline .event:after { box-shadow: 0 0 0 4px #f81ce5; left: -57.85px; background: #ffffff; border-radius: 50%; height: 11px; width: 11px; content: ""; top: 5px; }
 
 /*# sourceMappingURL=screen.css.map */
