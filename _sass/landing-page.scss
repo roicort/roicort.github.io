@@ -371,3 +371,43 @@
 		visibility: visible;
 	}
 }
+
+
+.glitch {
+   
+    &::before,
+    &::after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        background: white;
+        color: black;
+        clip: rect(0, 400px, 0, 0);
+    }
+    &:hover{
+		&::before {
+			left: 7px;
+			text-shadow: 1px 0 cyan;
+			animation: glitch-effect 3s infinite linear alternate-reverse;
+		}
+
+		&::after {
+			left: 3px;
+			text-shadow: -1px 0 magenta;
+			animation: glitch-effect 2s infinite linear alternate-reverse;
+		}
+	}
+}
+
+@keyframes glitch-effect{
+  
+    @for $i from 0 through 20{
+        #{percentage($i*(1/20))}{
+            clip:rect(random(100)+px,9999px,random(100)+px,0);
+        }
+    }
+    
+}
