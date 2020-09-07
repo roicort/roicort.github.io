@@ -10,19 +10,19 @@ author_staff_member: Rodrigo_Cortez
 
 musikkcontroller is an mac os app that creates a bridge between your phone and your computer to send OSC data and create simple-to-use mobile music interfaces for MaxMSP, SuperCollider etc.
 
-![Checkmate](/images/screenshots/controller.png)
+![Checkmate](/images/musikkcontroller/controller.png)
 
 ## Architecture
 
 When you open the app con your mac it promps for a PORT to rout OSC message in your localhost. 
 
-![Checkmate](/images/screenshots/init.png)
+![Checkmate](/images/musikkcontroller/init.png)
 
 It deploys a simple EXPRESS-based server to deploy the interface to your phone. Using Websockets the page oxsn your phone communicates with a websocket bridge in musikkontroller that routes the websocket info to OSC in roder to be usable in any OSC capable app. 
 
 A QRCODE is also used for making more simple openning the webapp on your phone. Simply scan the QRCODE and it will connect automatically.
 
-![Checkmate](/images/screenshots/qrcode.png)
+![Checkmate](/images/musikkcontroller/qrcode.png)
 
 ## Code
 

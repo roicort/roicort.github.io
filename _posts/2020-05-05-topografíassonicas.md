@@ -12,8 +12,8 @@ Topografías Sónicas es un proyecto estudiantil que busca crear un Mapa Sonoro 
 
 [Demo](https://topografiassonicas.vercel.app)
 
-![Checkmate](/images/ts/inicio.png)
+![Checkmate](/images/topografias/inicio.png)
 
-![Checkmate](/images/ts/mapa.png)
+![Checkmate](/images/topografias/mapa.png)
 
-![Checkmate](/images/ts/sound.png)
+![Checkmate](/images/topografias/sound.png)
