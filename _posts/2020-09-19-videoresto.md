@@ -4,7 +4,7 @@ date: 2020-05-05
 description: Restaurando películas anriguas con IA
 categories:
   - AI
-image: /images/ts/head.jpg
+image: /images/posts/olvidados.jpg
 author_staff_member: Rodrigo_Cortez
 ---
 
