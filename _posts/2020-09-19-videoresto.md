@@ -1,7 +1,7 @@
 ---
 title: VideoResto
-date: 2020-05-05
-description: Restaurando películas anriguas con IA
+date: 2020-09-19
+description: Restaurando películas antiguas con IA
 categories:
   - AI
 image: /images/posts/olvidados.jpg
