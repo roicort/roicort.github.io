@@ -9,7 +9,8 @@ author_staff_member: Rodrigo_Cortez
 ---
 <style>
   iframe{
-    padding:2vh
+    padding-top:5vh;
+    padding-bottom:3vh;
   }
 </style>
 Restauración de videos interpolando fotogramas para HDR con DAIN, escalando la imagen para HD con Super Image Resolution y coloreando con DeOldify.
