@@ -83,6 +83,8 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
   </div>
 </div>
 </section> 
+<br>
+<br>
 
 <script>
 	var ctx = document.getElementById('myRadarChart').getContext('2d');
