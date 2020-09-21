@@ -29,6 +29,8 @@
 
 section {
 	background: #ffffff;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .pad {
@@ -114,6 +116,7 @@ header {
 
 .info {
 	padding: 0 0 100px 0;
+	font-size: $blogfontsize;
 
 	&:first-child {
 		padding-top: 100px;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/artificial_intelligence/2019/05/20/SARII/</loc>
+<loc>http://localhost:4000/ai/2019/05/20/SARII/</loc>
 <lastmod>2019-05-20T00:00:00+00:00</lastmod>
 </url>
 <url>
@@ -13,10 +13,17 @@
 <lastmod>2020-05-05T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/design/</loc>
+<loc>http://localhost:4000/ai/2020/09/19/videoresto/</loc>
+<lastmod>2020-09-19T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/projects/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/design/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/gif/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -25,7 +32,7 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/category/artificial-intelligence/</loc>
+<loc>http://localhost:4000/category/ai/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/category/music/</loc>

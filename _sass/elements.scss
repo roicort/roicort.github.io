@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: $font;
 }
 
 a {
@@ -22,18 +22,18 @@ img {
 }
 
 h1 strong, h2 strong {
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h1 {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 3.8em;
 	margin: 0;
 
 }
 
 h2 {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 3em;
 	margin: 0 0 30px 0;
 	line-height: 1.2em;
@@ -52,10 +52,9 @@ h2 a {
 }
 
 p, address, ul {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-weight: 300;
-	line-height: 1.65;
+	font-family: $font;
+	font-weight: 400;
 	margin: 2em 0 2em 0;
 	letter-spacing: .025em;
-	line-height: 1.65;
+	line-height: 1.6;
 }
