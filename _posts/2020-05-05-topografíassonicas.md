@@ -4,7 +4,7 @@ date: 2020-05-05
 description: Mapa Sonoro de México
 categories:
   - Music
-image: /images/ts/head.jpg
+image: https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif
 author_staff_member: Rodrigo_Cortez
 ---
 

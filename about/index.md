@@ -11,6 +11,12 @@ layout: post
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 
+<style>
+  .timeline{
+    font-size: 1rem;
+  }
+</style>
+
 ## Profile 
 Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM, graduated from the Physical Mathematical Baccalaureate at the Marist High School, Valladolid. Interested in the sciences and the arts, but especially in their intersection.
 
