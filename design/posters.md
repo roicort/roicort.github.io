@@ -1,22 +1,16 @@
 ---
-title: Design
-description: Keep up with the latest news.
-image: https://images.unsplash.com/photo-1585770536735-27993a080586?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80
+title: Posters
+description: Some things I've done
+image: None
+author_staff_member: Rodrigo_Cortez
+layout: post
 ---
 
 <body> 
 <!-- <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})"> -->
-	<section class="hero">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 class="editable">Design</h1>
-			<p class="subtext editable">Other things I like to do.</p>
-			<a href="/" class="previous-btn">&larr; Back</a>
-		</div>
-	</div>
-</section>
 
 <div class="content">
+
 	<section class="info" id="learn-more">
 		<div class="container flex">
 			<div class="text">
@@ -25,7 +19,7 @@ image: https://images.unsplash.com/photo-1585770536735-27993a080586?ixlib=rb-1.2
 			</div>
 			<div class="image">
 				<div data-tilt>
-					<img class="editable" src="../images/carteles/IoT.png" alt="Screenshot"/>
+					<img class="editable" src="../../images/posters/IoT.png" alt="Screenshot"/>
 				</div>
 			</div>
 		</div>
@@ -39,7 +33,7 @@ image: https://images.unsplash.com/photo-1585770536735-27993a080586?ixlib=rb-1.2
 			</div>
 			<div class="image">
 				<div data-tilt>
-					<img class="editable" src="../images/carteles/FLISOL.png" alt="Screenshot"/>
+					<img class="editable" src="../../images/posters/FLISOL.png" alt="Screenshot"/>
 				</div>
 			</div>
 		</div>
@@ -53,12 +47,11 @@ image: https://images.unsplash.com/photo-1585770536735-27993a080586?ixlib=rb-1.2
 			</div>
 			<div class="image">
 				<div data-tilt>
-					<img class="editable" src="../images/carteles/HD.png" alt="Screenshot"/>
+					<img class="editable" src="../../images/posters/HD.png" alt="Screenshot"/>
 				</div>
 			</div>
 		</div>
 	</section>
 </div>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script> <!-- Load jQuery first -->
-<script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script> <!-- Load Tilt.js library -->
+
 </body>
