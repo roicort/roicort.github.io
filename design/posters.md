@@ -52,6 +52,20 @@ layout: post
 			</div>
 		</div>
 	</section>
+
+	<section class="info">
+	<div class="container flex">
+		<div class="text">
+			<h2 class="editable">Libro</h2>
+			<p class="editable">Pensamiento crítico para el aprendizaje</p>
+		</div>
+		<div class="image">
+			<div data-tilt>
+				<img class="editable" src="../../images/posters/portada.png" alt="Screenshot"/>
+			</div>
+		</div>
+	</div>
+</section>
 </div>
 
 </body>
