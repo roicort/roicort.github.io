@@ -1,16 +1,10 @@
-/* Import */
-/* Variables */
-/* Base */
-body {
-  background: #ffffff;
-  font-size: 16px;
-} 
+
 #timeline-content {
   margin-top: 50px;
   text-align: center;
-  margin-left: 20vh;
+  margin-left: 10vh;
 }
-/* Timeline */
+
 .timeline {
   border-left: 4px solid $secondary;
   border-bottom-right-radius: 4px;
@@ -30,7 +24,7 @@ body {
 .timeline h1 {
   letter-spacing: 1.5px;
   font-weight: 100;
-  font-size: 1.4em;
+  font-size: 1.0em;
 }
 .timeline h2,
 .timeline h3 {
