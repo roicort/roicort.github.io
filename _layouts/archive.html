@@ -5,7 +5,7 @@ layout: default
 <section class="hero" style="background-image: url(https://source.unsplash.com/1600x900/?{{ page.title }})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>{{ page.title }}</h1>
+			<h1 id="title">{{ page.title }}</h1>
 			<p class="change-category">You're currently looking at posts categorised under <strong>{{ page.title }}</strong>. <a href="{{ site.baseurl }}/projects/">View all posts</a> instead.</p>
 		</div>
 	</div>
@@ -18,3 +18,15 @@ layout: default
 		</ul>
 	</div>
 </section>
+
+
+<script src="{{ site.baseurl }}/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("{{ page.title }}")
+
+</script>

@@ -79,7 +79,7 @@
 		<section class="hero" style="background-image: url(https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>musikkcontroller</h1>
+			<h1 id="title" >musikkcontroller</h1>
 			<p class="subtext">OSC interactive music controller</p>
 			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
@@ -137,6 +137,17 @@
 </section>
 
 
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("musikkcontroller")
+
+</script>
 
 		<footer>
 			<div class="container">

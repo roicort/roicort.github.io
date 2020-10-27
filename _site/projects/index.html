@@ -78,7 +78,7 @@
 <section class="hero">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Projects</h1>
+			<h1 id="title" class="editable">Portfolio</h1>
 			<p class="subtext editable">This is what I like to do.</p>
 			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
@@ -104,11 +104,12 @@
 		<div class="post-content">
 			<style>
   iframe{
-    padding-top:4vh;
+    padding-top:2vh;
     padding-bottom:3vh;
   }
 </style>
 
+<p>En años recientes se han publicado distintas arquitecturas de redes neuronales que nos posibilitan escalar, interpolar o colorarear <em>frames</em> de un video. A continuación se presentan una serie de arquitecturas para los propósitos anteriormente mencionados y los resultados de algunos experimentos realizadas con las mismas.</p>
 
 			<div class="button"><a href="/ai/2020/10/13/restaurarIA/">Read More</a></div>
 		</div>
@@ -174,6 +175,18 @@
 		
 	</div>
 </section>
+
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("Projects")
+
+</script>
 
 
 		<footer>

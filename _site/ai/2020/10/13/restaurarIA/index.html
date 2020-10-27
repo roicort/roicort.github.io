@@ -79,7 +79,7 @@
 		<section class="hero" style="background-image: url(https://media.giphy.com/media/3ohc0Y1TI0vawx60Sc/giphy.gif)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>RestaurarIA</h1>
+			<h1 id="title" >RestaurarIA</h1>
 			<p class="subtext">Restaurando películas antiguas con IA</p>
 			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
@@ -102,16 +102,25 @@
 		<div class="post-content">
 			<style>
   iframe{
-    padding-top:4vh;
+    padding-top:2vh;
     padding-bottom:3vh;
   }
 </style>
 
-<h3 id="el-brazo-fuerte-1958">El Brazo Fuerte (1958)</h3>
+<p>En años recientes se han publicado distintas arquitecturas de redes neuronales que nos posibilitan escalar, interpolar o colorarear <em>frames</em> de un video. A continuación se presentan una serie de arquitecturas para los propósitos anteriormente mencionados y los resultados de algunos experimentos realizadas con las mismas.</p>
 
-<p>RDNGAN + DeOldify</p>
+<ul>
+  <li>ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks) para <em>Super Image Resolution</em> (SIR).</li>
+  <li>DAIN (Depth-Aware video frame INterpolation) para interpolación de <em>frames</em>.</li>
+  <li>DeOldify para coloreado de <em>frames</em>.</li>
+</ul>
+
+<h2 id="el-brazo-fuerte-1958">El Brazo Fuerte (1958)</h2>
+
+<p>ESRGAN + DeOldify</p>
 
 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/e7DWYhHvsY8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
 
 
 			<div class="blog-navigation">
@@ -128,6 +137,17 @@
 </section>
 
 
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("RestaurarIA")
+
+</script>
 
 		<footer>
 			<div class="container">

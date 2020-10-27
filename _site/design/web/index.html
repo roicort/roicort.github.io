@@ -77,7 +77,7 @@
 		<section class="hero" style="background-image: url(None)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>Web Design</h1>
+			<h1 id="title" >Web Design</h1>
 			<p class="subtext">Some things I've done</p>
 			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
@@ -157,6 +157,17 @@
 </section>
 
 
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("Web Design")
+
+</script>
 
 		<footer>
 			<div class="container">

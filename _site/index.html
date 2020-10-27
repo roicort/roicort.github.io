@@ -80,7 +80,7 @@
 	<div class="header">
 		<div class="hero-text-container">
 			<div class="inner-hero text-container">		
-				<h1 class="site-title glitch" data-text="Rodrigo Cortez">Rodrigo Cortez</h1>
+				<h1 id="title" class="site-title glitch" data-text="Rodrigo Cortez">Rodrigo Cortez</h1>
 				<p class="subtext editable">
 					<a href="https://github.com/roicort">code</a>
 					<a href="/projects">projects</a>
@@ -97,7 +97,7 @@
 	<section class="info" id="learn-more">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">Hello</h2>
+				<h2 id="welcome" class="editable">Hello</h2>
 				<p>I'm a graduate Data Science student from UNAM. I'm currently finishing my thesis. I'm interested in Artificial Intelligence, Cognitive Sciences, Digital Humanities, Optimization, Networks and Arts.</p>
 			</div>
 			<div class="img-png">
@@ -122,27 +122,66 @@
 	</section>
 	-->
 </div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script> <!-- Load jQuery first -->
 <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script> <!-- Load Tilt.js library -->
-<script>
-	document.addEventListener("DOMContentLoaded", function () { particlesJS("particles-js", { particles: { number: { value: 30, density: { enable: !0, value_area: 800 } }, color: { value: "#000000" }, shape: { type: "polygon", stroke: { width: 0, color: "#000000" }, polygon: { nb_sides: 5 }, image: { src: "img/github.svg", width: 100, height: 100 } }, opacity: { value: .5, random: !1, anim: { enable: !1, speed: 1, opacity_min: .1, sync: !1 } }, size: { value: 3, random: !0, anim: { enable: !1, speed: 19.18081918081918, size_min: .1, sync: !1 } }, line_linked: { enable: !0, distance: 150, color: "#000000", opacity: .4, width: 1 }, move: { enable: !0, speed: 4, direction: "none", random: !0, straight: !1, out_mode: "out", bounce: !1, attract: { enable: !1, rotateX: 600, rotateY: 1200 } }, nb: 80 }, interactivity: { detect_on: "canvas", events: { onhover: { enable: !1, mode: "grab" }, onclick: { enable: !0, mode: "push" }, resize: !0 }, modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: .4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } } }, retina_detect: !0 }) }, !1);
+<script>document.addEventListener("DOMContentLoaded", function () { particlesJS("particles-js", { particles: { number: { value: 30, density: { enable: !0, value_area: 800 } }, color: { value: "#000000" }, shape: { type: "polygon", stroke: { width: 0, color: "#000000" }, polygon: { nb_sides: 5 }, image: { src: "img/github.svg", width: 100, height: 100 } }, opacity: { value: .5, random: !1, anim: { enable: !1, speed: 1, opacity_min: .1, sync: !1 } }, size: { value: 3, random: !0, anim: { enable: !1, speed: 19.18081918081918, size_min: .1, sync: !1 } }, line_linked: { enable: !0, distance: 150, color: "#000000", opacity: .4, width: 1 }, move: { enable: !0, speed: 4, direction: "none", random: !0, straight: !1, out_mode: "out", bounce: !1, attract: { enable: !1, rotateX: 600, rotateY: 1200 } }, nb: 80 }, interactivity: { detect_on: "canvas", events: { onhover: { enable: !1, mode: "grab" }, onclick: { enable: !0, mode: "push" }, resize: !0 }, modes: { grab: { distance: 400, line_linked: { opacity: 1 } }, bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 }, repulse: { distance: 200, duration: .4 }, push: { particles_nb: 4 }, remove: { particles_nb: 2 } } }, retina_detect: !0 }) }, !1);</script>
 
-	var textWrapper = document.querySelector('.site-title');
-	textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+<script src="/js/textanime.js"></script>
 
-	var textWrapperLinks = document.querySelector('#links');
+<script> 
 
-	anime.timeline({loop: false})
-	.add({
-		targets: '.site-title .letter',
-		opacity: [0,1],
-		easing: "easeInOutQuad",
-		duration: 2250,
-		delay: (el, i) => 150 * (i+1)
+const titleinit = [
+	'Code',
+	'Science + Art',
+	'Rodrigo Cortez'
+]
+
+const phrases = [
+	'Hey',
+	'Hi',
+	'Hello :)'
+]
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+
+const change1 = async () => {
+	await sleep(0)
+		fixin.setText(titleinit[0])
+}
+const change2 = async () => {
+	await sleep(2500)
+		fixin.setText(titleinit[1])
+}
+const change3 = async () => {
+	await sleep(5000)
+		fixin.setText(titleinit[2])
+}
+
+change1()
+change2()
+change3()
+
+const el = document.querySelector('#welcome')
+const fx = new TextScramble(el)
+
+let counter = 0
+const loopwelcome = () => {
+	fx.setText(phrases[counter]).then(() => {
+	setTimeout(loopwelcome, 2000)
 	})
+	counter = (counter + 1) % phrases.length
+}
 
+loopwelcome()
+	
 </script>
-
+	
 
 		<footer>
 			<div class="container">

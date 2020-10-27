@@ -76,7 +76,7 @@
 		<section class="hero" style="background-image: url(https://source.unsplash.com/1600x900/?Music)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>Music</h1>
+			<h1 id="title">Music</h1>
 			<p class="change-category">You're currently looking at posts categorised under <strong>Music</strong>. <a href="/projects/">View all posts</a> instead.</p>
 		</div>
 	</div>
@@ -127,6 +127,17 @@
 	</div>
 </section>
 
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("Music")
+
+</script>
 
 		<footer>
 			<div class="container">

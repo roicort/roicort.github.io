@@ -79,7 +79,7 @@
 		<section class="hero" style="background-image: url(https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1>Topografías Sónicas</h1>
+			<h1 id="title" >Topografías Sónicas</h1>
 			<p class="subtext">Mapa Sonoro de México</p>
 			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
@@ -127,6 +127,17 @@
 </section>
 
 
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("Topografías Sónicas")
+
+</script>
 
 		<footer>
 			<div class="container">
