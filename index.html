@@ -138,11 +138,11 @@ const change1 = async () => {
 		fixin.setText(titleinit[0])
 }
 const change2 = async () => {
-	await sleep(2000)
+	await sleep(2500)
 		fixin.setText(titleinit[1])
 }
 const change3 = async () => {
-	await sleep(4000)
+	await sleep(5000)
 		fixin.setText(titleinit[2])
 }
 
@@ -158,7 +158,7 @@ const loopwelcome = () => {
 	fx.setText(phrases[counter]).then(() => {
 	setTimeout(next, 2000)
 	})
-	counter = (counter + 1) % phrases.length
+	counter = (loopwelcome + 1) % phrases.length
 }
 
 loopwelcome()
