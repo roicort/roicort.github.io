@@ -156,9 +156,9 @@ const fx = new TextScramble(el)
 let counter = 0
 const loopwelcome = () => {
 	fx.setText(phrases[counter]).then(() => {
-	setTimeout(next, 2000)
+	setTimeout(loopwelcome, 2000)
 	})
-	counter = (loopwelcome + 1) % phrases.length
+	counter = (counter + 1) % phrases.length
 }
 
 loopwelcome()
