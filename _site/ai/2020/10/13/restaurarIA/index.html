@@ -110,14 +110,31 @@
 <p>En años recientes se han publicado distintas arquitecturas de redes neuronales que nos posibilitan escalar, interpolar o colorarear <em>frames</em> de un video. A continuación se presentan una serie de arquitecturas para los propósitos anteriormente mencionados y los resultados de algunos experimentos realizadas con las mismas.</p>
 
 <ul>
-  <li>ESRGAN (Enhanced Super-Resolution Generative Adversarial Networks) para <em>Super Image Resolution</em> (SIR).</li>
+  <li>Super-scaling Residual Dense Network described in Residual Dense Network for Image Super-Resolution (Zhang et al. 2018)</li>
+  <li>Super-scaling Residual in Residual Dense Network described in ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks (Wang et al. 2018)</li>
   <li>DAIN (Depth-Aware video frame INterpolation) para interpolación de <em>frames</em>.</li>
   <li>DeOldify para coloreado de <em>frames</em>.</li>
 </ul>
 
 <h2 id="el-brazo-fuerte-1958">El Brazo Fuerte (1958)</h2>
+<p><br /></p>
+<h3 id="original">Original</h3>
+<p><img src="/images/restauraria/Original.jpg" alt="Checkmate" /></p>
+<h3 id="rdn-gan--noisecancelling">RDN GAN + NoiseCancelling</h3>
+<p><img src="/images/restauraria/RDN.jpg" alt="Checkmate" /></p>
+<h3 id="rrdn-gan">RRDN GAN</h3>
+<p><img src="/images/restauraria/RRDN.jpg" alt="Checkmate" /></p>
 
-<p>ESRGAN + DeOldify</p>
+<h3 id="original-1">Original</h3>
+<p><img src="/images/restauraria/ZoomOriginal.png" alt="Checkmate" /></p>
+<h3 id="rdn-gan--noisecancelling-1">RDN GAN + NoiseCancelling</h3>
+<p><img src="/images/restauraria/ZoomRDN.jpg" alt="Checkmate" /></p>
+<h3 id="rrdn-gan-1">RRDN GAN</h3>
+<p><img src="/images/restauraria/ZoomRRDN.jpg" alt="Checkmate" /></p>
+
+<h3 id="rdn-gan-noisecancelling--deoldify">RDN GAN (NoiseCancelling) + DeOldify</h3>
+
+<p>Una semana de procesamiento en la nube con dos NVIDIA Tesla V100.</p>
 
 <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/e7DWYhHvsY8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
