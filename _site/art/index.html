@@ -6,17 +6,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>GIF | Portfolio</title>
+<title>Art | Portfolio</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="GIF" />
+<meta property="og:title" content="Art" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="GIF" />
-<meta property="og:description" content="GIF" />
-<link rel="canonical" href="http://localhost:4000/gif/" />
-<meta property="og:url" content="http://localhost:4000/gif/" />
+<meta name="description" content="@unkwowableart" />
+<meta property="og:description" content="@unkwowableart" />
+<link rel="canonical" href="http://localhost:4000/art/" />
+<meta property="og:url" content="http://localhost:4000/art/" />
 <meta property="og:site_name" content="Portfolio" />
+<meta property="og:image" content="http://localhost:4000/None" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"GIF","@type":"WebPage","url":"http://localhost:4000/gif/","headline":"GIF","@context":"https://schema.org"}</script>
+{"image":"http://localhost:4000/None","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"@unkwowableart","@type":"WebPage","url":"http://localhost:4000/art/","headline":"Art","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Portfolio" />
@@ -59,7 +60,7 @@
 		
 
 		
-		<a href="/art/" class="" >art</a>
+		<a href="/art/" class=" active" >art</a>
 	
 		
 		
@@ -79,18 +80,92 @@
 			</div>
 		</header>
 
-		<div class="content">
-	<section class="info" id="learn-more">
-		<div class="container flex">
-			<div class="img-png">
-				<div data-tilt>
-					<img  src="../images/landing/wave.gif" alt="Screenshot" width="256" height="256" />
-				</div>
-			</div>
+		<section class="hero" style="background-image: url(None)">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 id="title" >Art</h1>
+			<p class="subtext">@unkwowableart</p>
+			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
-	</section>
-</div>
+	</div>
+</section>
 
+<section>
+	<div class="blog-post text-container">
+		<p class="editor-link"><a href="cloudcannon:collections/art/index.md" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
+		<p class="post-details">
+	
+	<span class="post-date"></span>
+</p>
+
+
+		<div class="post-content">
+			<style>
+#instafeed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  margin: auto;
+}
+
+#instafeed a {
+  display: block;
+}
+
+#instafeed img {
+  display: block;
+  width: 100%;
+}
+</style>
+
+<script src="https://raw.githubusercontent.com/stevenschobert/instafeed.js/master/dist/instafeed.min.js"></script>
+
+<!-- The target container for the images -->
+<div id="instafeed"></div>
+
+<!-- The Token Agent service - make sure to use your own URL here -->
+<script src="https://token-guy-12098.herokuapp.com/token.js"></script>
+
+<!-- The Instafeed.js library (Don't use this URL in production!) -->
+<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+
+<!-- Configure and run instafeed -->
+<script>
+  console.log(Instafeed)
+  var feed = new Instafeed({
+    accessToken:"IGQVJYc1B1bkthN0J0T3R4MEFONGhPTngtMzJPOVR3Vnl6Y2pTY2ZA4UDlYdVRlbFBUUTVqZAGZASdkdxM1BYMU9RRWdETk81QVZAnaGtuUmZABRC01dngxMkQ4eTZAUQ04zOWY1dncyT3gyekI2RkJaamp1bAZDZD"
+  });
+  
+  feed.run();
+</script>
+
+
+
+			<div class="blog-navigation">
+				
+				
+			</div>
+
+
+			
+		</div>
+	</div>
+</section>
+
+
+
+<script src="/js/textanime.js"></script>
+
+<script>
+
+const elin = document.querySelector('#title');
+const fixin = new TextScramble(elin);
+
+fixin.setText("Art")
+
+</script>
 
 		<footer>
 			<div class="container">
