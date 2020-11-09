@@ -1,6 +1,6 @@
 ---
 title: Art
-description: "@unkwowableart"
+description: "@unknowableart"
 image: None
 author_staff_member: Rodrigo_Cortez
 layout: post
