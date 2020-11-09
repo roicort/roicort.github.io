@@ -13,7 +13,7 @@ layout: post
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Humanidades Digitales</h2>
-				<p class="editable">humanidadesdigitales.github.io</p>
+				<p class="editable">humanidadesdigitales.github.io/Seminario</p>
 			</div>
 			<div class="image">
 				<div data-tilt>
@@ -41,7 +41,7 @@ layout: post
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">DarkMagic</h2>
-				<p class="editable">roicort.github.io/DarkMagic</p>
+				<p class="editable">humanidadesdigitales.github.io/DarkAnalysis</p>
 			</div>
 			<div class="image">
 				<div data-tilt>
