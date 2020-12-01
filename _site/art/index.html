@@ -5,19 +5,22 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Begin Jekyll SEO tag v2.6.1 -->
+		<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Art | Portfolio</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Art" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="@unkwowableart" />
-<meta property="og:description" content="@unkwowableart" />
+<meta name="description" content="@unknowableart" />
+<meta property="og:description" content="@unknowableart" />
 <link rel="canonical" href="http://localhost:4000/art/" />
 <meta property="og:url" content="http://localhost:4000/art/" />
 <meta property="og:site_name" content="Portfolio" />
-<meta property="og:image" content="http://localhost:4000/None" />
+<meta property="og:image" content="http://localhost:4000/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/" />
+<meta property="twitter:title" content="Art" />
 <script type="application/ld+json">
-{"image":"http://localhost:4000/None","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"@unkwowableart","@type":"WebPage","url":"http://localhost:4000/art/","headline":"Art","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/art/","image":"http://localhost:4000/","headline":"Art","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"description":"@unknowableart","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Portfolio" />
@@ -80,11 +83,11 @@
 			</div>
 		</header>
 
-		<section class="hero" style="background-image: url(None)">
+		<section class="hero" style="background-image: url()">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 id="title" >Art</h1>
-			<p class="subtext">@unkwowableart</p>
+			<p class="subtext">@unknowableart</p>
 			<a href="/" class="previous btn">&larr; Back</a>
 		</div>
 	</div>
@@ -100,7 +103,9 @@
 
 
 		<div class="post-content">
-			<style>
+			<p><br /></p>
+
+<style>
 #instafeed {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -117,30 +122,27 @@
 #instafeed img {
   display: block;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 </style>
 
-<script src="https://raw.githubusercontent.com/stevenschobert/instafeed.js/master/dist/instafeed.min.js"></script>
-
 <!-- The target container for the images -->
 <div id="instafeed"></div>
-
-<!-- The Token Agent service - make sure to use your own URL here -->
-<script src="https://token-guy-12098.herokuapp.com/token.js"></script>
 
 <!-- The Instafeed.js library (Don't use this URL in production!) -->
 <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 
 <!-- Configure and run instafeed -->
 <script>
-  console.log(Instafeed)
   var feed = new Instafeed({
-    accessToken:"IGQVJYc1B1bkthN0J0T3R4MEFONGhPTngtMzJPOVR3Vnl6Y2pTY2ZA4UDlYdVRlbFBUUTVqZAGZASdkdxM1BYMU9RRWdETk81QVZAnaGtuUmZABRC01dngxMkQ4eTZAUQ04zOWY1dncyT3gyekI2RkJaamp1bAZDZD"
+    accessToken:"IGQVJYc1B1bkthN0J0T3R4MEFONGhPTngtMzJPOVR3Vnl6Y2pTY2ZA4UDlYdVRlbFBUUTVqZAGZASdkdxM1BYMU9RRWdETk81QVZAnaGtuUmZABRC01dngxMkQ4eTZAUQ04zOWY1dncyT3gyekI2RkJaamp1bAZDZD",
+    limit: 21
   });
   
   feed.run();
 </script>
 
+<p><br /></p>
 
 
 			<div class="blog-navigation">
