@@ -2,7 +2,7 @@
 title: About
 date: Today
 description: Some things I've done
-image: None
+image: ""
 author_staff_member: Rodrigo_Cortez
 layout: post
 ---
