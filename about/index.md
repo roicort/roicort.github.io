@@ -70,6 +70,10 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * A. Professor "Microcontrollers", Music And Technology, ENES Morelia UNAM 2020-1
 * A. Professor "Taller Integrador II", Archivos y Gestión Documental, ENES Morelia UNAM 2020-2
 
+## On the News
+
+* AbstractStudios on [Forbes México](https://www.forbes.com.mx/esta-app-quiere-ser-tu-guia-de-turistas-con-realidad-aumentada/) (Spanish)
+
 ## Others
 
 * ICPC México 2019
