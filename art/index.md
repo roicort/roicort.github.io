@@ -38,7 +38,7 @@ layout: post
 <!-- Configure and run instafeed -->
 <script>
   var feed = new Instafeed({
-    accessToken:"IGQVJYc1B1bkthN0J0T3R4MEFONGhPTngtMzJPOVR3Vnl6Y2pTY2ZA4UDlYdVRlbFBUUTVqZAGZASdkdxM1BYMU9RRWdETk81QVZAnaGtuUmZABRC01dngxMkQ4eTZAUQ04zOWY1dncyT3gyekI2RkJaamp1bAZDZD",
+    accessToken:"IGQVJXQl9uR2xaRjVrbzV3cTUydjNma0xNQlU5aEREeTJhMW9yRkNpR0VXVzJsN0pnWVJkUmNhYkpPVGZAwZAVRKOUlwdmttMXdqSDdJd0xWMzR6c0FGb0czNy10R2tPdjdLTDNWR2NTTFNHVmlueGxZANwZDZD",
     limit: 21
   });
   
