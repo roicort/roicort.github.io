@@ -14,7 +14,7 @@ layout: post
 		<div class="container flex">
 			<div class="text">
 				<h2 class="editable">Olimpiada Matemáticas</h2>
-				<p class="editable">https://olimpiadamatematicasmichoacan.org</p>
+				<p class="editable">olimpiadamatematicasmichoacan.org</p>
 			</div>
 			<div class="image">
 				<div data-tilt>
