@@ -84,8 +84,10 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Français - DELF B1, UMSNH B2
 * English - TOEFL 590
 * 汉语 - HSK 1
-* Русский (Currently Learning)
+* Русский - N1
 
+<br>
+<br>
 <section> 
 <div class="container flex"> 
   <div class="image">
@@ -103,7 +105,7 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 		data: {
 		labels: ['Español', 'Français', 'English', '汉语','Русский'],
 		datasets: [{
-        data: [90, 80, 75, 25,15],
+        data: [90, 80, 75, 33, 25],
 			backgroundColor: '#00FFFF40',
 			borderColor: 'cyan',
 			label:""
