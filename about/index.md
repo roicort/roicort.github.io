@@ -18,10 +18,10 @@ layout: post
 </style>
 
 ## Profile 
-Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM, graduated from the Physical Mathematical Baccalaureate at the Marist High School, Valladolid. Interested in the sciences and the arts, but especially in their intersection.
+Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM. Interested in the sciences and the arts, but especially in their intersection.
 
 ## Skills
-Advanced computer skills with knowledge in programming languages (Python, C++, Processing, Arduino) for data science and application development, Data Mining, Optimization and Artificial Intelligence.  Knowledge in Web development and Design (Adobe Suite), knowledge in electronics with the Arduino and Raspberry Pi platform, knowledge in Solfeggio and Piano. Ability to speak in a group, work and lead a team, experience in front of a group and spirit of social service.
+Advanced computer skills with knowledge in programming languages (Python, C++, Processing, Arduino) for data science and application development, Data Mining, Optimization and Artificial Intelligence.  Knowledge in Web development and Design, knowledge in electronics with the Arduino and Raspberry Pi platform, knowledge in Solfeggio and Piano. Ability to speak in a group, work and lead a team, experience in front of a group and spirit of social service.
 
 <section> 
   <div id="timeline-content">
@@ -65,16 +65,27 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 
 ## Teaching
 
-* A. Professor "Algorithmic Composition", Music And Technology, ENES Morelia UNAM 2020-1
-* A. Professor "Desition Theory", Information Technology, ENES Morelia UNAM 2020-1
-* A. Professor "Microcontrollers", Music And Technology, ENES Morelia UNAM 2020-1
-* A. Professor "Taller Integrador II", Archivos y Gestión Documental, ENES Morelia UNAM 2020-2
+* Assist. Professor "Algorithmic Composition", Music And Technology, ENES Morelia UNAM 2020-1
+* Assist. Professor "Desition Theory", Information Technology, ENES Morelia UNAM 2020-1
+* Assist. Professor "Microcontrollers", Music And Technology, ENES Morelia UNAM 2020-1
+
+* Assist. Professor "Taller Integrador II", Archives and Records Management, ENES Morelia UNAM 2020-2
+* Assist. Professor "ElectroBending", Music And Technology, ENES Morelia UNAM 2020-2
+
+* Assist. Professor "Selected Data Science Topics", Information Technology, ENES Morelia UNAM 2021-1
+* Assist. Professor "Taller Integrador III", Archives and Records Management, ENES Morelia UNAM 2021-1
+
+* Assist. Professor "Taller Integrador II", Archives and Records Management, ENES Morelia UNAM 2021-2
 
 ## On the News
 
 * AbstractStudios on [Forbes México](https://www.forbes.com.mx/esta-app-quiere-ser-tu-guia-de-turistas-con-realidad-aumentada/) (Spanish)
 
-## Others
+## NonProfit
+
+* Member of the committee of the Michoacán Mathematics Olympiad (2021)
+
+## Competitions
 
 * ICPC México 2019
 * ACM - ICPC México 2018
@@ -83,8 +94,8 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Español - Native
 * Français - DELF B1, UMSNH B2
 * English - TOEFL 590
-* 汉语 - HSK 1
-* Русский - N1
+* 汉语 - HSK1 (Perfect Score)
+* Русский - A1
 
 <br>
 <br>
