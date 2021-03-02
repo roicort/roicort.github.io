@@ -17,6 +17,16 @@ layout: post
   }
 </style>
 
+## Motivation
+
+<strong> Innovate, improve, reinvent... make it *Better*. </strong>
+
+*Better*, it's a powerfull ideal. It makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything. Different voices, different points of view, different disciplines. 
+
+This is why I like to work in interdisciplinary projects. To work togheter, in order to leave things better than we found them. It's in my DNA. 
+
+I aspire to learn the tools that could make it possible, and inspire others to do the same.
+
 ## Profile 
 Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM. Interested in the sciences and the arts, but especially in their intersection.
 
