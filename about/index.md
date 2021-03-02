@@ -20,9 +20,9 @@ layout: post
 
 #### Innovate, improve, reinvent... make it *Better*.
 
-*Better*, it's a powerfull ideal. It makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything. Different voices, different points of view, different disciplines. That's why I like to work in interdisciplinary projects, to work togheter, to leave things better than we found them. It's in my DNA. 
+*Better*, it's a powerfull ideal. It makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything. Different voices, different points of view, different disciplines. I like to work in interdisciplinary projects, to work togheter, to leave things better than we found them.
 
-So I aspire to learn and create the tools to make it possible, and inspire others to do the same.
+That's why I aspire to learn and create the tools to make it possible, and inspire others to do the same. *Make It Better*, it's in my DNA. 
 
 ## Profile 
 Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM. Interested in the sciences and the arts, but especially in their intersection.
