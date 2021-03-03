@@ -30,6 +30,9 @@ Graduate of Information Technology in Sciences from the Area of Engineering and 
 ## Skills
 Advanced computer skills with knowledge in programming languages (Python, C++, Processing, Arduino) for data science and application development, Data Mining, Optimization and Artificial Intelligence.  Knowledge in Web development and Design, knowledge in electronics with the Arduino and Raspberry Pi platform, knowledge in Solfeggio and Piano. Ability to speak in a group, work and lead a team, experience in front of a group and spirit of social service.
 
+
+##Timeline 
+
 <section> 
   <div id="timeline-content">
     <ul class="timeline">
@@ -75,13 +78,10 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Assist. Professor "Algorithmic Composition", Music And Technology, ENES Morelia UNAM 2020-1
 * Assist. Professor "Desition Theory", Information Technology, ENES Morelia UNAM 2020-1
 * Assist. Professor "Microcontrollers", Music And Technology, ENES Morelia UNAM 2020-1
-
 * Assist. Professor "Taller Integrador II", Archives and Records Management, ENES Morelia UNAM 2020-2
 * Assist. Professor "ElectroBending", Music And Technology, ENES Morelia UNAM 2020-2
-
 * Assist. Professor "Selected Data Science Topics", Information Technology, ENES Morelia UNAM 2021-1
 * Assist. Professor "Taller Integrador III", Archives and Records Management, ENES Morelia UNAM 2021-1
-
 * Assist. Professor "Taller Integrador II", Archives and Records Management, ENES Morelia UNAM 2021-2
 
 ## On the News
