@@ -31,7 +31,7 @@ Graduate of Information Technology in Sciences from the Area of Engineering and 
 Advanced computer skills with knowledge in programming languages (Python, C++, Processing, Arduino) for data science and application development, Data Mining, Optimization and Artificial Intelligence.  Knowledge in Web development and Design, knowledge in electronics with the Arduino and Raspberry Pi platform, knowledge in Solfeggio and Piano. Ability to speak in a group, work and lead a team, experience in front of a group and spirit of social service.
 
 
-##Timeline 
+## Timeline 
 
 <section> 
   <div id="timeline-content">
