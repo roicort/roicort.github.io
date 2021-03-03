@@ -97,6 +97,10 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * ICPC México 2019
 * ACM - ICPC México 2018
 
+## Complementary Studies
+
+* Digital Repositories - PASD (UNAM 2020)
+
 ## Lenguages
 * Español - Native
 * Français - DELF B1, UMSNH B2
