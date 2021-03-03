@@ -18,7 +18,7 @@ layout: post
 </style>
 
 
-#### Innovate, improve, reinvent... make it *Better*.
+#### Innovate, improve, reinvent... *Make it Better*.
 
 *Better*, it's a powerfull ideal. It makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything. Different voices, different points of view, different disciplines. I like to work in interdisciplinary projects, to work togheter, to leave things better than we found them.
 
