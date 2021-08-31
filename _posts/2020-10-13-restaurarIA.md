@@ -1,5 +1,5 @@
 ---
-title: RestaurarIA
+title: Restauración de El Brazo Fuerte
 date: 2020-10-13
 description: Restaurando películas antiguas con IA
 categories:
