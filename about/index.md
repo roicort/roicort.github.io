@@ -94,8 +94,8 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Member of the committee of the [Michoacán Mathematics Olympiad](https://olimpiadamatematicasmichoacan.org) (Spanish)
 * [Instituto del Sur Urbano](https://www.sur.institute) (Spanish)
 
-## Proyects
-* Please Visit [Proyects](https://roicort.github.io/proyects)
+## Projects
+* Please Visit [Projects](https://roicort.github.io/projects)
 
 ## Competitions
 
