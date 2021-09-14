@@ -66,6 +66,8 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 
 * "Algorithm Opacity" - Open Data Day 2020
 * "Data Mining for Information Sciences" - UASLP México 2019
+* "Music and New Technologies" - UMSNH 2021
+* "Artificial Inteligence and Critical Thinking" - UMSNH 2021
 
 ## Publications 
 
@@ -108,7 +110,11 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Film Criticism, FICM (2021)
 
 ## Software
-
+* LaTeX
+* Apple iWork
+* DaVinci Resolve
+* GitHub
+* Zotero
 * Affinty Designer
 * Pixelmator Pro
 * Blender
