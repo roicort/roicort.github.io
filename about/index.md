@@ -118,6 +118,7 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Pixelmator Pro
 * Blender
 * Figma
+* Docker
 * And More
 
 ## Lenguages
