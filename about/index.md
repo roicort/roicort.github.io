@@ -20,9 +20,7 @@ layout: post
 
 #### Innovate, improve, reinvent... *Make it Better*.
 
-*Better*, it's a powerfull ideal. It makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything. Different voices, different points of view, different disciplines. I like to work in interdisciplinary projects, to work togheter, to leave things better than we found them.
-
-That's why I aspire to learn and create the tools to make it possible, and inspire others to do the same. *Make It Better*, it's in my DNA. 
+*Better*, it's a powerfull ideal, it makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything, different voices, different points of view, different disciplines. That´s why I love to work in interdisciplinary projects, to work togheter, to leave things better than we found them.
 
 ## Profile 
 Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM. Interested in the sciences and the arts, but especially in their intersection.
@@ -83,6 +81,7 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 * Assist. Professor "Selected Data Science Topics", Information Technology, ENES Morelia UNAM 2021-1
 * Assist. Professor "Taller Integrador III", Archives and Records Management, ENES Morelia UNAM 2021-1
 * Assist. Professor "Taller Integrador II", Archives and Records Management, ENES Morelia UNAM 2021-2
+* Assist. Professor "Selected Data Science Topics", Information Technology, ENES Morelia UNAM 2022-1
 
 ## On the News
 
@@ -90,7 +89,8 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 
 ## NonProfit
 
-* Member of the committee of the Michoacán Mathematics Olympiad (2021)
+* Member of the committee of the [Michoacán Mathematics Olympiad(https://olimpiadamatematicasmichoacan.org) (Spanish)
+* [Instituto del Sur Urbano](https://www.sur.institute) (Spanish)
 
 ## Competitions
 
@@ -100,6 +100,16 @@ Advanced computer skills with knowledge in programming languages (Python, C++, P
 ## Complementary Studies
 
 * Digital Repositories - PASD (UNAM 2020)
+* History of Cinema, FICM (2021)
+* Film Criticism, FICM (2021)
+
+## Software
+
+* Affinty Designer
+* Pixelmator Pro
+* Blender
+* Figma
+* And More
 
 ## Lenguages
 * Español - Native
