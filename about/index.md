@@ -28,6 +28,9 @@ Graduate of Information Technology in Sciences from the Area of Engineering and 
 ## Skills
 Advanced computer skills with knowledge in programming languages (Python, C++, Processing, Arduino) for data science and application development, Data Mining, Optimization and Artificial Intelligence.  Knowledge in Web development and Design, knowledge in electronics with the Arduino and Raspberry Pi platform, knowledge in Solfeggio and Piano. Ability to speak in a group, work and lead a team, experience in front of a group and spirit of social service.
 
+## Currently
+
+I am currently a professor at ENES Morelia and a consultant at the NGO Instituto del Sur Urbano.
 
 ## Timeline 
 
