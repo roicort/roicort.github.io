@@ -67,6 +67,11 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 
 ## Programming
 
+* Python - Main
+* JS - WebDev & Visualizations
+* Swift - Some XCode Proyects
+* C++
+
 <br>
 <br>
 <section> 
@@ -97,8 +102,8 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
             display: false
         },
         ticks: {
-            suggestedMin: 50,
-            suggestedMax: 100
+            suggestedMin: 30,
+            suggestedMax: 80
         }
     }}
 	});
