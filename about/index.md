@@ -102,7 +102,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
             display: false
         },
         ticks: {
-            suggestedMin: 30,
+            suggestedMin: 0,
             suggestedMax: 80
         }
     }}
@@ -205,7 +205,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
             display: false
         },
         ticks: {
-            suggestedMin: 50,
+            suggestedMin: 0,
             suggestedMax: 100
         }
     }}
