@@ -194,7 +194,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 		data: {
 		labels: ['Español', 'Français', 'English', '汉语','Русский'],
 		datasets: [{
-        data: [90, 80, 75, 33, 33],
+        data: [90, 80, 75, 33, 40],
 			backgroundColor: '#00FFFF40',
 			borderColor: 'cyan',
 			label:""
