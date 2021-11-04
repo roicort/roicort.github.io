@@ -65,6 +65,45 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
   </div>
 </section>
 
+## Programming
+
+<br>
+<br>
+<section> 
+<div class="container flex"> 
+  <div class="image">
+    <canvas id="myRadarChart2"></canvas>
+  </div>
+</div>
+</section> 
+<br>
+<br>
+
+<script>
+	var ctx = document.getElementById('myRadarChart2').getContext('2d');
+	var myRadarChart = new Chart(ctx, {
+		type: 'radar',
+		data: {
+		labels: ['Python', 'JS', 'Swift', 'C++'],
+		datasets: [{
+        data: [80, 60, 40, 30,],
+			backgroundColor: '#00FFFF40',
+			borderColor: 'cyan',
+			label:""
+		}]
+	},
+		options: {scale: {
+        angleLines: {
+            display: false
+        },
+        ticks: {
+            suggestedMin: 50,
+            suggestedMax: 100
+        }
+    }}
+	});
+	</script>
+
 ## Talks
 
 * "Algorithm Opacity" - Open Data Day 2020
@@ -167,4 +206,3 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
     }}
 	});
 	</script>
-
