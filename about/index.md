@@ -142,6 +142,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * [Instituto del Sur Urbano](https://www.sur.institute) (Spanish)
 
 ## Projects
+
 * Please Visit [Projects](https://roicort.github.io/projects)
 
 ## Competitions
@@ -156,6 +157,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * Film Criticism, FICM (2021)
 
 ## Software
+
 * LaTeX
 * Apple iWork
 * DaVinci Resolve
@@ -169,6 +171,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * And More
 
 ## Lenguages
+
 * Español - Native
 * Français - DELF B1, UMSNH B2
 * English - TOEFL 590
