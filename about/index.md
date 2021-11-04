@@ -73,7 +73,6 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * C++
 
 <br>
-<br>
 <section> 
 <div class="container flex"> 
   <div class="image">
@@ -81,7 +80,6 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
   </div>
 </div>
 </section> 
-<br>
 <br>
 
 <script>
@@ -178,7 +176,6 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * 汉语 - HSK1 (Perfect Score)
 * Русский - A1
 
-<br>
 <br>
 <section> 
 <div class="container flex"> 
