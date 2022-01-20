@@ -1,27 +1,28 @@
 ---
-layout: default
+layout: body
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
-	<div class="inner-hero text-container">
-		<div class="hero-text-container">
-			<h1 id="title" >{{ page.title }}</h1>
-			<p class="subtext">{{ page.description }}</p>
-			<a href="/" class="previous btn">&larr; Back</a>
-		</div>
-	</div>
-</section>
+<div class="inner outer">
 
-{{ content }}
+  <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title line-top">{{ page.title }}</h1>
+      {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
+      {% if subtitle_is_not_empty %}
+      <div class="post-subtitle">
+        {{ page.subtitle }}
+      </div>
+      {% endif %}
+    </header>
+    {% assign image_is_not_empty = page.image | is_not_empty %}
+    {% if image_is_not_empty %}
+    <div class="post-image">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" />
+    </div>
+    {% endif %}
+    <div class="post-content inner-sm">
+      {{ content }}
+    </div>
+  </article><!-- .post -->
 
-
-<script src="{{ site.baseurl }}/js/textanime.js"></script>
-
-<script>
-
-const elin = document.querySelector('#title');
-const fixin = new TextScramble(elin);
-
-fixin.setText("{{ page.title }}")
-
-</script>
+</div><!-- .inner -->

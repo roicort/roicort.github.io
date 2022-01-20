@@ -1,45 +1,31 @@
 ---
-layout: page
+layout: body
 ---
 
-<section>
-	<div class="blog-post text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
-		{% include post-title.html post=page %}
+<div class="inner outer">
 
-		<div class="post-content">
-			{{ content }}
+  <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title line-top">{{ page.title }}</h1>
+      {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
+      {% if subtitle_is_not_empty %}
+      <div class="post-subtitle">
+        {{ page.subtitle }}
+      </div>
+      {% endif %}
+    </header>
+    {% assign image_is_not_empty = page.image | is_not_empty %}
+    {% if image_is_not_empty %}
+    <div class="post-image">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" />
+    </div>
+    {% endif %}
+    <div class="post-content inner-sm">
+      {{ content }}
+    </div>
+    <footer class="post-meta inner-sm">
+      <time class="published" datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}">{{ page.date | date: '%B %d, %Y' }}</time>
+    </footer>
+  </article><!-- .post -->
 
-			<div class="blog-navigation">
-				{% if page.previous.url %}
-					<a class="prev" href="{% include relative-src.html src=page.previous.url %}">&laquo; {{ page.previous.title }}</a>
-				{% endif %}
-				{% if page.next.url %}
-					<a class="next" href="{% include relative-src.html src=page.next.url %}">{{ page.next.title }} &raquo;</a>
-				{% endif %}
-			</div>
-
-
-			{% if site.disqus_shortname and page.comments %}
-				<div id="disqus_thread"></div>
-				<script>
-						var disqus_shortname = '{{ site.disqus_shortname }}';
-						var disqus_config = function () {
-								this.page.url = "{{ page.url | prepend: site.url }}";
-								this.page.identifier = "{{ page.id }}";
-						};
-
-						(function() {  // DON'T EDIT BELOW THIS LINE
-								var d = document, s = d.createElement('script');
-
-								s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-
-								s.setAttribute('data-timestamp', +new Date());
-								(d.head || d.body).appendChild(s);
-						})();
-				</script>
-				<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-			{% endif %}
-		</div>
-	</div>
-</section>
+</div><!-- .inner -->

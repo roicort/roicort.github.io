@@ -1,0 +1,58 @@
+{
+    "title": "UNKNOWABLE",
+    "color_scheme": "dark",
+    "header": {
+        "title": "UNKNOWABLE",
+        "logo_img": "images/logo.png",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Home",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Projects",
+                "url": "/portfolio/",
+                "style": "link"
+            },
+            {
+                "label": "Blog",
+                "url": "/blog/",
+                "style": "link"
+            },
+            {
+                "label": "About",
+                "url": "/about/",
+                "style": "link"
+            }
+        ]
+    },
+    "footer": {
+        "content": "&copy; Unknowable. All rights reserved. This site was created with ❤️ and <a href=\"https://github.com/stackbit-themes\">Stackbit</a>.",
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/unknowableart_",
+                "style": "icon",
+                "icon": "twitter",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/_.unknowable",
+                "style": "icon",
+                "icon": "instagram",
+                "new_window": true
+            },
+            {
+                "label": "Dribbble",
+                "url": "https://openprocessing.org/user/233138",
+                "style": "icon",
+                "icon": "dribbble",
+                "new_window": true
+            }
+        ]
+    }
+}
