@@ -197,7 +197,7 @@ body {
 
 a {
   border-bottom: 1px solid currentColor;
-  color: #b4b4b4;
+  color: magenta;
   text-decoration: none;
   -webkit-transition: .3s ease;
   transition: .3s ease; }
@@ -292,7 +292,7 @@ blockquote {
   blockquote:first-child {
     margin-top: 0; }
   blockquote:before {
-    color: #b4b4b4;
+    color: magenta;
     content: "\201C";
     font-size: 2.5em;
     left: 0;
@@ -391,7 +391,7 @@ img {
   border: 0;
   border-radius: 0;
   box-sizing: border-box;
-  color: #b4b4b4;
+  color: magenta;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -425,7 +425,7 @@ img {
     border-top: 0;
     bottom: 0; }
   .button:hover, .button:focus, .button:active {
-    color: #b4b4b4;
+    color: magenta;
     outline: 0; }
     .button:hover:before, .button:hover:after, .button:focus:before, .button:focus:after, .button:active:before, .button:active:after {
       height: 50%; }
@@ -568,7 +568,7 @@ option {
   position: relative; }
   .form-group .animate-border {
     bottom: 0;
-    background: #b4b4b4;
+    background: magenta;
     height: 2px;
     left: 0;
     position: absolute;
@@ -709,7 +709,7 @@ option {
 .line-top {
   position: relative; }
   .line-top:before {
-    border-left: 45px solid #b4b4b4;
+    border-left: 45px solid magenta;
     content: "";
     display: block;
     height: 3px;
@@ -829,12 +829,12 @@ option {
   font-size: 16px;
   line-height: 1.2; }
   .menu-item.current-menu-item {
-    color: #b4b4b4; }
+    color: magenta; }
   .menu-item a:not(.button) {
     border: 0;
     color: inherit; }
     .menu-item a:not(.button):hover {
-      color: #b4b4b4; }
+      color: magenta; }
 
 #menu-open,
 #menu-close {
@@ -1256,7 +1256,7 @@ option {
 /* Portfolio section */
 .view-all-button {
   box-sizing: border-box;
-  color: #b4b4b4;
+  color: magenta;
   display: inline-block;
   font-size: 16px;
   font-weight: bold;
@@ -1269,7 +1269,7 @@ option {
   transform: translate(-50%, -50%);
   z-index: 2; }
   .view-all-button:before, .view-all-button:after {
-    border: 2px solid #b4b4b4;
+    border: 2px solid magenta;
     box-sizing: border-box;
     content: "";
     height: 32%;
@@ -1344,7 +1344,7 @@ option {
 .site-footer a:not(.button) {
   color: inherit; }
   .site-footer a:not(.button):hover, .site-footer a:not(.button):focus {
-    color: #b4b4b4; }
+    color: magenta; }
 
 .site-info,
 .social-links {
@@ -1400,5 +1400,10 @@ body.has-theme-bar #page {
   @media only screen and (max-width: 801px) {
     body.has-theme-bar #page {
       top: 60px; } }
+::selection {
+  /* Change highlight background color to black */
+  background: magenta;
+  /* Change highlight text color to red */
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */

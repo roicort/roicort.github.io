@@ -1,10 +1,10 @@
 ---
-title: Topografías Sónicas (ES)
-subtitle: Mapa sonoro de México
+title: Posters ENES (ES)
+subtitle: Posters para la ENES Morelia
 date: '2022-01-15'
-thumb_image: https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif
+thumb_image: /images/posters/IoT.png
 thumb_image_alt: 'White, black, and red shoe sole'
-image: https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif
+image: 
 image_alt: 'White, black, and red shoe sole'
 seo:
   title: Topografías Sónicas
@@ -35,12 +35,10 @@ seo:
 layout: project
 ---
 
-Topografías Sónicas es un proyecto estudiantil que busca crear un Mapa Sonoro de México utilizando sistemas de infromación geográficos y una colección de sonidos alojada en SoundCloud.
+![Checkmate](/images/posters/FLISOL.png)
 
-[Demo](https://topografiassonicas.vercel.app)
+![Checkmate](/images/posters/HD.png)
 
-![Checkmate](/images/topografias/inicio.png)
+![Checkmate](/images/posters/IoT.png)
 
-![Checkmate](/images/topografias/mapa.png)
-
-![Checkmate](/images/topografias/sound.png)
+![Checkmate](/images/posters/portada.png)

@@ -18,7 +18,7 @@ $palette: (
   charcoal-light-75: lighten(#272c30, 75%),
   charcoal-light-80: lighten(#272c30, 80%),
   charcoal-dark-15:  darken(#272c30, 15%),
-  accent:            #b4b4b4,
+  accent:            magenta,
   windowww:          #000000
 );
 
@@ -39,3 +39,10 @@ $palette: (
 @import "imports/banner";
 
 //Custom
+
+::selection {
+  /* Change highlight background color to black */
+  background: _palette(accent);
+  /* Change highlight text color to red */
+  color: white;
+}

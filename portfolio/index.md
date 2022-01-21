@@ -1,9 +1,9 @@
 ---
-title: Portfolio
-subtitle: This is an optional subtitle for the portfolio page.
+title: Projects
+subtitle: Some of the things I've done
 layout_style: mosaic
 seo:
-  title: Portfolio
+  title: Projects
   description: This is the portfolio page
   extra:
     - name: 'og:type'

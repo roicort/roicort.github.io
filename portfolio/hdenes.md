@@ -1,14 +1,14 @@
 ---
-title: Topografías Sónicas (ES)
-subtitle: Mapa sonoro de México
+title: Seminario de Humanidades Digitales - ENES Morelia (ES)
+subtitle: Sitio Web de la HDENES Morelia
 date: '2022-01-15'
-thumb_image: https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif
+thumb_image: /images/web/hd.png
 thumb_image_alt: 'White, black, and red shoe sole'
-image: https://media.giphy.com/media/kimPrHNUDksc14FXCB/giphy-downsized-large.gif
+image: 
 image_alt: 'White, black, and red shoe sole'
 seo:
-  title: Topografías Sónicas
-  description: Mapa sonoro de México
+  title: Seminario de Humanidades Digitales
+  description: Sitio Web de la HDENES Morelia
   extra:
     - name: 'og:type'
       value: website
@@ -35,12 +35,4 @@ seo:
 layout: project
 ---
 
-Topografías Sónicas es un proyecto estudiantil que busca crear un Mapa Sonoro de México utilizando sistemas de infromación geográficos y una colección de sonidos alojada en SoundCloud.
-
-[Demo](https://topografiassonicas.vercel.app)
-
-![Checkmate](/images/topografias/inicio.png)
-
-![Checkmate](/images/topografias/mapa.png)
-
-![Checkmate](/images/topografias/sound.png)
+![Checkmate](/images/web/dark.png)

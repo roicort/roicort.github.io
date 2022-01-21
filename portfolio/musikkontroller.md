@@ -1,14 +1,14 @@
 ---
-title: Sol LeWitt
-subtitle: A Generative Hommage to Sol Lewitt 
+title: Musikkontroller (EN)
+subtitle: A OSC controller app made with Electron
 date: '2022-01-15'
 thumb_image: https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
 thumb_image_alt: 'White, black, and red shoe sole'
 image: https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
 image_alt: 'White, black, and red shoe sole'
 seo:
-  title: Sol LeWitt
-  description: A Generative Hommage to Sol Lewitt 
+  title: Musikkontroller
+  description: A OSC controller made app with Electron
   extra:
     - name: 'og:type'
       value: website

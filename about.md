@@ -1,11 +1,11 @@
 ---
 title: About
-subtitle: Nothing here for now
-image: images/about.png
+subtitle: Mi curriculum vitae
+image: #images/about.png
 image_alt: A man taking a picture
 seo:
   title: About
-  description: This is the about us page
+  description: Curriculum Vitae - Rodrigo Cortez
   extra:
     - name: 'og:type'
       value: website
@@ -34,7 +34,7 @@ layout: page
 
 <br>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
 
 <style>
   .timeline{
@@ -101,38 +101,37 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * Swift - Some XCode Proyects
 * C++
 
-<br>
-<section> 
-<div class="container flex"> 
-  <div class="image">
-    <canvas id="myRadarChart2"></canvas>
-  </div>
-</div>
-</section> 
-<br>
+
+<canvas id="myRadarChart1"></canvas>
+
 
 <script>
-	var ctx = document.getElementById('myRadarChart2').getContext('2d');
+	var ctx = document.getElementById('myRadarChart1').getContext('2d');
 	var myRadarChart = new Chart(ctx, {
 		type: 'radar',
 		data: {
 		labels: ['Python', 'JS', 'Swift', 'C++'],
 		datasets: [{
+        label: 'Programming Languages',
         data: [80, 60, 40, 30,],
-			backgroundColor: '#00FFFF40',
-			borderColor: 'cyan',
-			label:""
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgb(255, 99, 132)'
 		}]
 	},
-		options: {scale: {
+		options: {
+    scales: {
+      r: {
+        suggestedMin: 0,
+        suggestedMax: 100,
         angleLines: {
-            display: false
+          color: 'grey'
         },
-        ticks: {
-            suggestedMin: 0,
-            suggestedMax: 80
+        grid: {
+          color: 'grey'
         }
-    }}
+      }
+    }
+  }
 	});
 	</script>
 
@@ -197,7 +196,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * Docker
 * And More
 
-## Lenguages
+## Languages
 
 * Español - Native
 * Français - DELF B1, UMSNH B2
@@ -205,38 +204,36 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 * 汉语 - HSK1 (Perfect Score)
 * Русский - A1
 
-<br>
-<section> 
-<div class="container flex"> 
-  <div class="image">
-    <canvas id="myRadarChart"></canvas>
-  </div>
-</div>
-</section> 
-<br>
-<br>
+
+<canvas id="myRadarChart2"></canvas>
+
 
 <script>
-	var ctx = document.getElementById('myRadarChart').getContext('2d');
+	var ctx = document.getElementById('myRadarChart2').getContext('2d');
 	var myRadarChart = new Chart(ctx, {
 		type: 'radar',
 		data: {
 		labels: ['Español', 'Français', 'English', '汉语','Русский'],
 		datasets: [{
+        label: 'Languages',
         data: [90, 80, 75, 33, 40],
-			backgroundColor: '#00FFFF40',
-			borderColor: 'cyan',
-			label:""
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgb(255, 99, 132)'
 		}]
 	},
-		options: {scale: {
+  options: {
+    scales: {
+      r: {
+        suggestedMin: 0,
+        suggestedMax: 100,
         angleLines: {
-            display: false
+          color: 'grey'
         },
-        ticks: {
-            suggestedMin: 0,
-            suggestedMax: 100
+        grid: {
+          color: 'grey'
         }
-    }}
-	});
+      }
+    }
+  }
+});
 	</script>

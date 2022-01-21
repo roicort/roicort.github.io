@@ -8,17 +8,17 @@ sections:
     content: >-
       Art + Science
     actions:
-      - label: Work
+      - label: Projects
         url: /portfolio
         style: button
-      - label: OpenProcessing
-        url: "https://openprocessing.org/user/233138"
+      - label: Art
+        url: "https://unknowableart.github.io"
         style: button
-      - label: Instagram
-        url: "https://www.instagram.com/_.unknowable"
+      - label: Blog
+        url: /blog
         style: button
-      - label: Twitter
-        url: "https://twitter.com/unknowableart_"
+      - label: About
+        url: /about
         style: button
   #- section_id: latest-projects
   #  type: section_portfolio
