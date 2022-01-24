@@ -9,7 +9,7 @@ function setup() {
 var canvas = createCanvas(windowWidth, windowHeight);
 frameRate(8)
 canvas.parent('p5-target');
-  w = 12;
+  w = 20;
   // Calculate columns and rows
   columns = floor(width / w);
   rows = floor(height / w);
