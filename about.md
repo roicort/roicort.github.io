@@ -1,6 +1,6 @@
 ---
 title: About
-subtitle: Mi curriculum vitae
+subtitle: My CV
 image: #images/about.png
 image_alt: A man taking a picture
 seo:
@@ -43,9 +43,9 @@ layout: page
 </style>
 
 
-#### Innovate, improve, reinvent... *Make it Better*.
+#### Improve, reinvent, *Make it Better*.
 
-*Better*, it's a powerfull ideal, it makes me look to the world and want it more than anything to change it for the better. But better cant be better if we dont consider everything, different voices, different points of view, different disciplines. That´s why I love to work in interdisciplinary projects, to work togheter, to leave things better than we found them.
+*Better*, it's a powerfull ideal, it makes me look to the world and want more than anything to change it for the better. But better cant be better if we dont consider everything, different voices, different points of view, different disciplines. That´s why I love to work in interdisciplinary projects, to work in team, to leave things better than I found them.
 
 ## Profile 
 Graduate of Information Technology in Sciences from the Area of Engineering and Sciences of the UNAM. Interested in the sciences and the arts, but especially in their intersection.
@@ -165,11 +165,13 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 ## NonProfit
 
 * Member of the committee of the [Michoacán Mathematics Olympiad](https://olimpiadamatematicasmichoacan.org) (Spanish)
+* Organizer of the Mexican Mathematics Olympiad Women's Competition.
 * [Instituto del Sur Urbano](https://www.sur.institute) (Spanish)
 
 ## Projects
 
-* Please Visit [Projects](https://roicort.github.io/projects)
+* "Reference scenario modeling to determine the cost-benefit of implementing energy efficiency regulations for light vehicles in Colombia" - Instituto del Sur Urbano, ECLAC (United Nations) and EuroClima+ (European Union).
+* For more projects visit the [Projects](https://roicort.github.io/portfolio/) page.
 
 ## Competitions
 
