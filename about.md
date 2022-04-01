@@ -145,6 +145,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 ## Publications 
 
 * Co-author in *"The use of an interactive music system as an aid for exploring sound in music education in a rural area"* Revista Música (2020) [ [Paper](http://www.revistas.usp.br/revistamusica/article/view/170736/161967) ]
+* *Clustering of Twitter Networks Based on Users' Structural Profile* [ENC](http://computo.fismat.umich.mx/enc2021/index.php/talleres/articulos-aceptados) 2021
 
 ## Teaching
 
@@ -161,6 +162,7 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
 ## On the News
 
 * AbstractStudios on [Forbes México](https://www.forbes.com.mx/esta-app-quiere-ser-tu-guia-de-turistas-con-realidad-aumentada/) (Spanish)
+* [Conservatorio de las Rosas Alumni](https://www.elconser.mx/Portal/orgulloconser/) (Spanish)
 
 ## NonProfit
 
