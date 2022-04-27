@@ -241,3 +241,6 @@ I am currently a professor at ENES Morelia and a consultant at the NGO Instituto
   }
 });
 	</script>
+
+
+[Download PDF](images/cv.pdf)
