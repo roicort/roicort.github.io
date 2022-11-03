@@ -63,6 +63,10 @@ GEM
     unicode-display_width (1.8.0)
     webrick (1.7.0)
 
+PLATFORMS
+  arm64-darwin-21
+  x86_64-linux
+
 DEPENDENCIES
   jekyll
   jekyll-menus
