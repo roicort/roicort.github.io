@@ -4,7 +4,7 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Rodrigo Cortez'
+    title: 'Rodrigo Cortez Madrigal'
     content: >-
       Art + Science
     actions:
@@ -12,7 +12,7 @@ sections:
         url: /portfolio
         style: button
       - label: Art
-        url: "https://unknowableart.github.io"
+        url: "https://unknowable.art"
         style: button
       - label: Blog
         url: /blog
@@ -90,14 +90,14 @@ sections:
   #      url: blog
   #      style: button
 seo:
-  title: UNKNOWABLE
+  title: Rodrigo Cortez
   description: Art + Science
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: UNKNOWABLE
+      value: Rodrigo Cortez
       keyName: property
     - name: 'og:description'
       value: The preview of the Exto theme
@@ -109,7 +109,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: UNKNOWABLE
+      value: Rodrigo Cortez
     - name: 'twitter:description'
       value: The preview of the Exto theme
     - name: 'twitter:image'
