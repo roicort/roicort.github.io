@@ -3,39 +3,39 @@
 <script src="{{ '/js/p5.pattern.js' | relative_url }}"></script>
 
 <style>
-#content{
-  padding-top: 0em;
-  padding-bottom: 0em;
-}
-#colophon{
-  border-top: none;
-}
-.button{
-  color: #ffffff;
-}
-.inner-hero{
-  position: absolute;
-   margin: auto;
-   left: 10%;
-   right: 10%;
-   top: 30%;
-   bottom: 0;
-}
+    #content {
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+    #colophon {
+        border-top: none;
+    }
+    .button {
+        color: #ffffff;
+    }
+    .inner-hero {
+        position: absolute;
+        margin: auto;
+        left: 10%;
+        right: 10%;
+        top: 30%;
+        bottom: 0;
+    }
 
-#hero {
-  height: 88vh;
-  background: #000000ec !important;
-  color: #ffffff;
-}
+    #hero {
+        height: 88vh;
+        background: #000000df !important;
+        color: #ffffff;
+    }
 
-#p5-target{
-  position: absolute;
-  z-index: -1;
-}
+    #p5-target {
+        position: absolute;
+        z-index: -1;
+    }
 
-#title{
-  font-size: 4em;
-}
+    #title {
+        font-size: 4em;
+    }
 </style>
 
 {% assign section = include.section %}
@@ -43,25 +43,24 @@
 <div id="p5-target"></div>
 
 <section id="{{ section.section_id }}" class="hero block block-hero outer">
-  <div class="inner-hero">
-    {% assign title_is_not_empty = section.title | is_not_empty %}
-    {% if title_is_not_empty %}
-    <div class="block-header inner-sm">
-      <h1 id="title" class="block-title">{{ section.title }}</h1>
+    <div class="inner-hero">
+        {% assign title_is_not_empty = section.title | is_not_empty %} {% if
+        title_is_not_empty %}
+        <div class="block-header inner-sm">
+            <h1 id="title" class="block-title">{{ section.title }}</h1>
+        </div>
+        {% endif %} {% assign content_is_not_empty = section.content |
+        is_not_empty %} {% if content_is_not_empty %}
+        <div class="block-content inner-sm">
+            {{ section.content | markdownify }}
+        </div>
+        {% endif %} {% assign actions_is_not_empty = section.actions |
+        is_not_empty %} {% if actions_is_not_empty %}
+        <div class="block-buttons inner-sm">
+            {% include cta_buttons.html actions=section.actions %}
+        </div>
+        {% endif %}
     </div>
-    {% endif %}
-    {% assign content_is_not_empty = section.content | is_not_empty %}
-    {% if content_is_not_empty %}
-    <div class="block-content inner-sm">
-      {{ section.content | markdownify }}
-    </div>
-    {% endif %}
-    {% assign actions_is_not_empty = section.actions | is_not_empty %}
-    {% if actions_is_not_empty %}
-    <div class="block-buttons inner-sm">
-      
-      {% include cta_buttons.html actions=section.actions %}
-    </div>
-    {% endif %}
-  </div><!-- .inner -->
-</section><!-- .block -->
+    <!-- .inner -->
+</section>
+<!-- .block -->
