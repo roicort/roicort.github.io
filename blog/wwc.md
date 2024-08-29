@@ -1,27 +1,27 @@
 ---
-title: Pilotos: Clave para la adopción de soluciones digitales
+title: Pilotos, Clave para la adopción de soluciones digitales
 excerpt: >-
   Experiencia con la metodología GovTech del BID en el Municipio de Monterrey
 date: '2024-08-24'
-thumb_image:
-thumb_image_alt:
-image:
-image_alt:
+thumb_image: https://images.unsplash.com/photo-1456419410527-58a934a42494?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+thumb_image_alt: https://images.unsplash.com/photo-1456419410527-58a934a42494?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://images.unsplash.com/photo-1456419410527-58a934a42494?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image_alt: https://images.unsplash.com/photo-1456419410527-58a934a42494?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 seo:
-  title: Pilotos: Clave para la adopción de soluciones digitales
+  title: Pilotos, Clave para la adopción de soluciones digitales
   description: Experiencia con la metodología GovTech del BID en el Municipio de Monterrey
   extra:
     - name: 'og:type'
       value: article
       keyName: property
     - name: 'og:title'
-      value: What are some of the best designed video games
+      value: Pilotos, Clave para la adopción de soluciones digitales
       keyName: property
     - name: 'og:description'
-      value: Diam sit amet nisl suscipit adipiscing bibendum est ultricies integer
+      value: Experiencia con la metodología GovTech del BID en el Municipio de Monterrey
       keyName: property
     - name: 'og:image'
-      value: images/6.jpg
+      value: https://images.unsplash.com/photo-1456419410527-58a934a42494?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
