@@ -1,0 +1,13 @@
+author:
+  name: Rodrigo Cortez
+  role: Data Scientist 
+  bio:  Passionate about leveraging data to drive insights and innovation. Experienced in machine learning, statistical analysis, and data visualization.
+  location: Ciudad de México
+
+social:
+  - id: "github"
+    label: "GitHub"
+    href: "https://github.com/roicort"
+  - id: "email"
+    label: "Email"
+    href: "mailto:rodrigo.cortez@example.com"

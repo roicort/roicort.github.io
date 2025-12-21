@@ -1,0 +1,60 @@
+---
+// Theme toggle button with local storage persistence
+export interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props as Props;
+---
+
+<button
+	type="button"
+	id="theme-toggle"
+	aria-label="Toggle theme"
+	class={className}
+>
+	<span class="sr-only">Toggle theme</span>
+	<span class="theme-toggle__icon inline-flex [html[data-theme='dark']_&]:hidden [html[data-theme='blue']_&]:hidden" aria-hidden="true">
+		Dark
+	</span>
+	<span class="theme-toggle__icon hidden [html[data-theme='dark']_&]:inline-flex" aria-hidden="true">
+		Light
+	</span>
+</button>
+
+<script is:inline>
+const STORAGE_KEY = 'theme';
+const THEMES = ['light', 'dark'];
+
+const getPreferredTheme = () => {
+	const stored = localStorage.getItem(STORAGE_KEY);
+	if (THEMES.includes(stored ?? '')) return stored;
+	return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+};
+
+const applyTheme = (theme) => {
+	document.documentElement.dataset.theme = theme;
+	const button = document.getElementById('theme-toggle');
+	if (button) button.setAttribute('aria-label', `Toggle theme (current: ${theme})`);
+};
+
+const nextTheme = (current) => {
+	const idx = THEMES.indexOf(current);
+	const nextIdx = idx === -1 ? 0 : (idx + 1) % THEMES.length;
+	return THEMES[nextIdx];
+};
+
+const toggleTheme = () => {
+	const current = document.documentElement.dataset.theme || getPreferredTheme();
+	const next = nextTheme(current);
+	localStorage.setItem(STORAGE_KEY, next);
+	applyTheme(next);
+};
+
+// init
+applyTheme(getPreferredTheme());
+
+const toggleButton = document.getElementById('theme-toggle');
+if (toggleButton) {
+	toggleButton.addEventListener('click', toggleTheme);
+}
+</script>
