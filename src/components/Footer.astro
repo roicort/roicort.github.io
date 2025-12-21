@@ -1,0 +1,136 @@
+---
+const now = new Date();
+const currentYear = now.getFullYear();
+
+function formatTime(date: Date): string {
+    const hh = date.getHours();
+    const mm = date.getMinutes();
+    const ampm = hh >= 12 ? "PM" : "AM";
+    let hours12 = hh % 12;
+    if (hours12 === 0) hours12 = 12;
+    const padded = (n: number) => String(n).padStart(2, "0");
+    return `${padded(hours12)}:${padded(mm)} ${ampm}`;
+}
+
+const initialTime = formatTime(now);
+---
+
+<footer>
+    <div class="max-w-[90rem] mx-auto px-8">
+        <!-- Render the default slot content -->
+        <div
+            class="grid grid-cols-1 gap-4 md:grid-cols-3 border-b pt-8 pb-12 border-base-200"
+        >
+            <h3 class="text-sm 2xl:text-xl text-base-900 font-bold uppercase">
+                CDMX, México
+                <span
+                    id="clock"
+                    aria-live="polite"
+                    class="block text-base-600 text-xs">{initialTime}</span
+                >
+            </h3>
+
+            <div class="lg:col-span-2 space-y-4">
+                <p
+                    class="text-xs 2xl:text-lg text-base-900 font-bold uppercase"
+                >
+                    © Copyright <span id="year">{currentYear}</span>. All rights
+                    reserved.
+                </p>
+            </div>
+        </div>
+
+        <slot />
+    </div>
+</footer>
+
+<script type="module">
+    // Client-side clock + year updater with graceful SSR fallback
+    function formatTimeClient(date) {
+        const hh = date.getHours();
+        const mm = date.getMinutes();
+        const ampm = hh >= 12 ? "PM" : "AM";
+        let hours12 = hh % 12;
+        if (hours12 === 0) hours12 = 12;
+        const padded = (n) => String(n).padStart(2, "0");
+        return `${padded(hours12)}:${padded(mm)} ${ampm}`;
+    }
+
+    function updateClock() {
+        const el = document.getElementById("clock");
+        if (!el) return;
+        el.textContent = formatTimeClient(new Date());
+    }
+
+    function updateYear() {
+        const el = document.getElementById("year");
+        if (!el) return;
+        el.textContent = String(new Date().getFullYear());
+    }
+
+    // Initialize immediately
+    updateYear();
+    updateClock();
+
+    // Align next update to the start of the next minute, then update every minute
+    const now = new Date();
+    const msToNextMinute =
+        (60 - now.getSeconds()) * 1000 - now.getMilliseconds();
+    setTimeout(() => {
+        updateClock();
+        setInterval(updateClock, 60 * 1000);
+    }, msToNextMinute);
+</script>
+
+<style>
+    footer {
+        background: linear-gradient(var(--gray-gradient)) no-repeat;
+        color: rgb(var(--gray));
+    }
+
+    /* Keep small screens centered, larger screens align left */
+    @media (min-width: 720px) {
+        footer {
+            text-align: left;
+        }
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    /* Fallback styling for utility-like classes used in markup */
+    .block {
+        display: block;
+    }
+    .text-xs {
+        font-size: 0.75rem;
+    }
+    .text-sm {
+        font-size: 0.875rem;
+    }
+    .text-base-900 {
+        color: var(--base-900, #111);
+    }
+    .text-base-600 {
+        color: var(--base-600, #6b7280);
+    }
+    .font-bold {
+        font-weight: 700;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .space-y-4 > * + * {
+        margin-top: 1rem;
+    }
+    .border-b {
+        border-bottom: 1px solid var(--border-color, rgba(0, 0, 0, 0.06));
+    }
+    .pt-8 {
+        padding-top: 2rem;
+    }
+    .pb-24 {
+        padding-bottom: 6rem;
+    }
+</style>

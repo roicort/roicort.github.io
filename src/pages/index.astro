@@ -1,0 +1,80 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import SectionList from "../components/SectionList.astro";
+import SectionLinks from "../components/SectionLinks.astro";
+import ProjectList from "../components/ProjectList.astro";
+import PostList from "../components/PostList.astro";
+
+import { getCollection } from "astro:content";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+
+const posts = (await getCollection("blog")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const projects = ((await getCollection("projects" as any)) as any[]).sort(
+    (a, b) => a.data.title.localeCompare(b.data.title),
+);
+
+const sections = (await getCollection("sections" as any)) as any[];
+
+const socials = (await getCollection("socials" as any)) as any[];
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header />
+        <Hero />
+
+        <main>
+            <!-- Socials -->
+            <SectionLinks
+                heading="Socials"
+                links={socials.map((social) => ({
+                    label: social.data.label,
+                    href: social.data.href,
+                }))}
+            />
+
+            <!-- Work (blog posts) -->
+            <PostList
+                heading="Blog"
+                posts={posts}
+                limit={6}
+                viewAllHref="/blog"
+            />
+
+            <!-- Projects -->
+            <ProjectList
+                heading="Projects"
+                items={projects}
+                limit={4}
+                viewAllHref="/projects"
+            />
+
+            <!-- Sections (from src/content/sections.yml) -->
+            {
+                sections.map((section) => {
+                    if (section.data.items) {
+                        return (
+                            <SectionList
+                                heading={section.data.heading}
+                                items={section.data.items}
+                            />
+                        );
+                    }
+                    return null;
+                })
+            }
+        </main>
+
+        <Footer />
+    </body>
+</html>
