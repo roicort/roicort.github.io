@@ -1,0 +1,46 @@
+---
+import siteConfig from "../site.json";
+---
+
+<section>
+    <div
+        class="max-w-[90rem] mx-auto px-8 pt-8 flex flex-col justify-between min-h-[95dvh]"
+    >
+        <!-- Render the default slot content -->
+        <slot />
+
+        <div
+            class="flex flex-col lg:flex-row lg:justify-between items-start gap-8"
+        >
+            <div
+                class="hero-letters text-[10vw] md:text-[10rem] lg:text-[10rem] leading-[0.85] font-extrabold text-base-900 uppercase"
+                aria-hidden="true"
+            >
+                {siteConfig.TITLE}
+            </div>
+        </div>
+
+        <div
+            class="grid grid-cols-1 gap-4 md:grid-cols-3 border-b pb-8 border-base-200"
+        >
+            <div>
+                <h1
+                    class="text-xs 2xl:text-lg text-base-900 font-bold uppercase"
+                >
+                    {siteConfig.OCCUPATION}
+                </h1>
+            </div>
+            <div class="lg:col-span-2">
+                <p class="text-sm 2xl:text-xl text-base-600">
+                    {siteConfig.BIO}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .grid {
+        max-width: 100%;
+    }
+</style>
