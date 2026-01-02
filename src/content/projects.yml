@@ -6,6 +6,11 @@
 # - image: optional path to an image (relative to this file, e.g. ../assets/...)
 # - link: a full URL to the project (required)
 
+- id: "reamember"
+  title: "rEAMember"
+  description: "Entropic Associative Memory (EAM) framework: Python implementations and experiments on associative memories."
+  link: "https://github.com/roicort/rEAMember"
+
 - id: "orbital-clustering"
   title: "Orbital Clustering"
   description: "Clustering of Twitter networks using orbital signature embeddings (graphlet-based embeddings, embedding stability and reproducible experiments)."
@@ -16,32 +21,27 @@
   description: "Sentiment analysis and classification of Mexican tourist reviews (IberLEF 2025). Baselines and transformer-based solutions with code and results."
   link: "https://github.com/roicort/REST-MEX25"
 
-- id: "sur-omega"
-  title: "SUR-OMEGA"
-  description: "Optimization modeling (OMEGA) to evaluate emissions-reduction scenarios and cost-benefit analysis for light vehicles; collaboration with Instituto del Sur Urbano."
-  link: "https://github.com/roicort/SUR-OMEGA"
-
-- id: "musikkcontroller"
-  title: "musikkcontroller"
-  description: "OSC controller (Electron + React) to interact from phone/browser with music software (Max/MSP, SuperCollider, etc.). Used in music-education research."
-  link: "https://github.com/roicort/musikkcontroller"
-
 - id: "dasein"
   title: "Dasein"
   description: "An Astro-based theme/template for personal portfolio and CV: minimal, fast, and SEO-friendly."
   link: "https://github.com/roicort/dasein"
 
-- id: "roicort-site"
-  title: "Personal website"
-  description: "Personal portfolio and CV (this site), implemented with Astro and content collections."
-  link: "https://github.com/roicort/roicort.github.io"
+- id: "ngostarter"
+  title: "NGOStarter"
+  description: "Ready... Set... NGo! A simple PayloadCMS template for NGOs or agencies."
+  link: "https://github.com/roicort/NGOStarter"
 
-- id: "f-vice"
-  title: "F-VICE"
-  description: "Forecasting velocity of ice in glaciers: notebooks and experiments for spatio-temporal forecasting of ice dynamics."
-  link: "https://github.com/roicort/F-VICE"
+- id: "django-liberty"
+  title: "django-liberty"
+  description: "Easy decoupled (unchained ⛓️‍💥) Django projects with liberty 🗽."
+  link: "https://github.com/roicort/django-liberty"
 
-- id: "reamember"
-  title: "rEAMember"
-  description: "Entropic Associative Memory (EAM) framework: Python implementations and experiments on associative memories."
-  link: "https://github.com/roicort/rEAMember"
+- id: "saidyes"
+  title: "saidyes"
+  description: "Astro template for a wedding invite"
+  link: "https://github.com/roicort/saidyes"
+
+- id: "meta-zoo"
+  title: "MetaZoo"
+  description: "A library for learning and playing with metaheuristics."
+  link: "https://github.com/roicort/MetaZoo"
