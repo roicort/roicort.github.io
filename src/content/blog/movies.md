@@ -2,7 +2,7 @@
 title: 'Coloreando Películas (ES)'
 description: 'Cine de oro mexicano a color gracias a redes adversarias generativas'
 pubDate: 'Jul 08 2022'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+heroImage: '../../assets/restauraria/RDN.jpg'
 ---
 
 <style>
