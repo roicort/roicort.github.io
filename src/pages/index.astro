@@ -12,7 +12,7 @@ import Social from '../components/Social.astro';
 const cv = (await getCollection("cv" as any)) as any[];
 
 const site = await getSite();
-console.log(site);
+
 ---
 
 <PageLayout
@@ -25,7 +25,7 @@ console.log(site);
 		location={site.author.location}
 		actions={[
 			{ label: 'View Blog', href: '/blog' },
-			{ label: 'Get Quote', href: '/contact' },
+			{ label: 'Work together!', href: 'https://www.cal.eu/roicort/30min' },
 		]}
 	/>
 

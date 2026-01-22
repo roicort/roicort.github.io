@@ -12,7 +12,7 @@ interface Props {
 }
 
 const site = await getSite();
-const { title = site.author.name, description = site.description, image } = Astro.props;
+const { title = site.author.name, description, image } = Astro.props;
 ---
 
 <!doctype html>

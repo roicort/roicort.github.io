@@ -5,7 +5,7 @@ import FormattedDate from './FormattedDate.astro';
 
 interface Props {
 	title: string;
-	href?: string;
+	href: string;
 	description?: string;
 	date?: Date | string;
 		image?: ImageMetadata | string;
@@ -16,61 +16,16 @@ interface Props {
 const { title, href, description, date, image, imageAlt = '', eyebrow } = Astro.props as Props;
 
 const baseDate = typeof date === 'string' ? new Date(date) : date;
-const articleClass =
-	'group relative grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-start rounded-[20px] bg-[color:var(--color-surface)]/95 p-5 shadow-[var(--shadow-card)] backdrop-blur-[6px] transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-[0_32px_70px_color-mix(in_srgb,var(--color-primary),transparent_65%)] focus-within:-translate-y-1 focus-within:shadow-[0_32px_70px_color-mix(in_srgb,var(--color-primary),transparent_65%)]';
+
+const articleClass = 'group relative grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-start p-5 transition duration-300 ease-in-out hover:-translate-y-1 focus-within:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-border';
+
+const isExternal = /^https?:\/\//.test(href) || href.startsWith('//');
+const aProps = { href, 'aria-label': `Ver ${title}`, ...(isExternal ? { rel: 'noopener noreferrer' } : {}) };
 ---
 
-{href ? (
-	<article class={articleClass}>
-		<div class="absolute inset-0 z-0 rounded-[20px] opacity-0 pointer-events-none transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100 shadow-[0_32px_70px_color-mix(in_srgb,var(--color-primary),transparent_65%)]"></div>
+<article class={articleClass} data-href={href} role="link" tabindex="0" onclick="if(!event.target.closest('a,button,input,textarea,select,details,[role=button]')){location.href=this.dataset.href}" onkeydown="if((event.key==='Enter'||event.key===' ')&&!event.target.closest('a,button,input,textarea,select,details,[role=button]')){location.href=this.dataset.href}">
 
-		{image && (
-			<figure class="lg:col-span-full relative overflow-hidden bg-[color-mix(in_oklab,var(--color-ink)_4%,var(--color-surface))]">
-				{typeof image === 'string' ? (
-					<img
-						src={image}
-						alt={imageAlt}
-						loading="lazy"
-						class="lg:col-span-full aspect-12/7 object-cover object-top w-full transition duration-400 group-hover:scale-[1.02]"
-					/>
-				) : (
-					<Image
-						src={image}
-						alt={imageAlt}
-						loading="lazy"
-						class="lg:col-span-full aspect-12/7 object-cover object-top w-full transition duration-400 group-hover:scale-[1.02]"
-					/>
-				)}
-			</figure>
-		)}
-
-		<div class="lg:col-span-2">
-			{eyebrow && <p class="text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-[color:var(--color-accent)]">{eyebrow}</p>}
-			<h3 class="text-sm 2xl:text-xl text-[color:var(--color-primary)] font-bold uppercase">
-				<a href={href} class="relative text-current no-underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-border">
-					<span class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span>
-					<span class="relative z-10">{title}</span>
-				</a>
-			</h3>
-
-			{description && <p class="text-xs 2xl:text-lg mt-1 text-[color-mix(in_srgb,var(--color-primary)_70%,var(--color-text-light)_30%)]">{description}</p>}
-		</div>
-
-		{baseDate && (
-			<p class="text-xs 2xl:text-lg text-base-600 lg:ml-auto">
-				<time datetime={baseDate.toISOString()}>
-					<FormattedDate date={baseDate} />
-				</time>
-			</p>
-		)}
-
-		<div class="relative z-10 mt-2 lg:col-span-full mt-auto pt-2 text-[0.95rem] text-[color-mix(in_srgb,var(--color-primary)_70%,var(--color-text-light)_30%)]">
-			<slot />
-		</div>
-	</article>
-) : (
-	<article class={articleClass}>
-		<div class="absolute inset-0 z-0 rounded-[20px] opacity-0 pointer-events-none transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100 shadow-[0_32px_70px_color-mix(in_srgb,var(--color-primary),transparent_65%)]"></div>
+		<a class="sr-only" {...aProps}>Ver {title}</a>
 
 		{image && (
 			<figure class="lg:col-span-full relative overflow-hidden bg-[color-mix(in_oklab,var(--color-ink)_4%,var(--color-surface))]">
@@ -112,5 +67,4 @@ const articleClass =
 		<div class="relative z-10 mt-2 lg:col-span-full mt-auto pt-2 text-[0.95rem] text-[color-mix(in_srgb,var(--color-primary)_70%,var(--color-text-light)_30%)]">
 			<slot />
 		</div>
-	</article>
-)
+</article>

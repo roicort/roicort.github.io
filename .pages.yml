@@ -5,7 +5,7 @@ media:
   - name: assets
     label: Assets
     input: src/assets
-    output: /assets
+    output: ../../assets
     # Show both images and common document types in the media browser
     categories: [image, document]
 
