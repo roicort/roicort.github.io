@@ -3,6 +3,11 @@ title: 'Coloreando Películas (ES)'
 description: 'Cine de oro mexicano a color gracias a redes adversarias generativas'
 pubDate: 'Jul 08 2022'
 heroImage: '../../assets/restauraria/RDN.jpg'
+tags:
+  - AI
+  - Movies
+  - Video Processing
+  - Computer Vision
 ---
 
 <style>

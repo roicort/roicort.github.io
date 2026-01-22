@@ -3,6 +3,10 @@ title: 'Pilotos (ES)'
 description: 'Pilotos, esenciales para la implementación y adopción de nuevas soluciones digitales'
 pubDate: 'Jul 08 2024'
 heroImage: '../../assets/daniel-lozano-valdes.jpg'
+tags:
+  - Digital Transformation
+  - Public Sector
+  - Innovation
 ---
 
 Probar soluciones mediante pilotos es una oportunidad invaluable antes de realizar cualquier compra o implementación dentro de la administración pública. Sobre todo porque el éxito de una nueva solución digital depende intrínsecamente de la adopción de la misma y es difícil adoptar nuevos procesos o una nueva tecnología cuando el cambio no es paulatino, centrado en los usuarios y no cumple con la expectativas. Innovar no es un trabajo sencillo, porque la innovación cuando es genuina siempre conlleva riesgos. Esto porque bueno, somos humanos y siempre existirá la resistencia al cambio y el reto de comunicar, entender y convencer a todos los stakeholders. Es cierto que es fácil equivocarse, pero al mismo tiempo la buena noticia es que ¡genuinamente de las equivocaciones se aprende! y hasta cierto punto son precisamente este motor de cambio que buscamos.

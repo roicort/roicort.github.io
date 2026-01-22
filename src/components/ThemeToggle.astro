@@ -8,7 +8,7 @@ const { class: className = '' } = Astro.props as Props;
 
 <button
 	type="button"
-	id="theme-toggle"
+	data-theme-toggle
 	aria-label="Toggle theme"
 	class={className}
 >
@@ -33,8 +33,8 @@ const getPreferredTheme = () => {
 
 const applyTheme = (theme) => {
 	document.documentElement.dataset.theme = theme;
-	const button = document.getElementById('theme-toggle');
-	if (button) button.setAttribute('aria-label', `Toggle theme (current: ${theme})`);
+	const buttons = document.querySelectorAll('[data-theme-toggle]');
+	buttons.forEach((b) => b.setAttribute('aria-label', `Toggle theme (current: ${theme})`));
 };
 
 const nextTheme = (current) => {
@@ -53,8 +53,13 @@ const toggleTheme = () => {
 // init
 applyTheme(getPreferredTheme());
 
-const toggleButton = document.getElementById('theme-toggle');
-if (toggleButton) {
-	toggleButton.addEventListener('click', toggleTheme);
-}
+// delegated listener: works for all existing and future instances (mobile, dynamic, etc.)
+document.addEventListener('click', (e) => {
+	const t = e.target;
+	if (!(t instanceof Element)) return;
+	const btn = t.closest('[data-theme-toggle]');
+	if (!btn) return;
+	e.preventDefault();
+	toggleTheme();
+});
 </script>
