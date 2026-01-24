@@ -3,7 +3,7 @@ title: Static Sites
 description: You don't really need React (or Jekyll) to build a blog
 pubDate: 2026-01-22
 updatedDate: 2026-01-22
-heroImage: /assets/blog-placeholder-3.png
+heroImage: ../../assets/blog-placeholder-3.png
 ---
 I used to build my blog using Jekyll, a popular static site generator built with Ruby. While Jekyll is a great tool, I found that it was becoming increasingly complex to manage, especially as I wanted to add more interactive features and components to my blog.
 
