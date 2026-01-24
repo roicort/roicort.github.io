@@ -13,7 +13,7 @@ For me, maintaining a simple blog with either Jekyll or NextJS felt like using a
 
 Enter Astro, a modern static site generator that allows you to build fast, optimized websites using a variety of frameworks and libraries, including React, Vue, and Svelte. Astro is designed to be lightweight and easy to use, with a focus on performance and SEO.
 
-While it seemed too good to be true at first, I decided to give Astro a try for my blog after reading a \[manifesto\]([https://justfuckinguseastro.com](https://justfuckinguseastro.com))? about not overingineering content sites. I was pleasantly surprised by how easy it was to get started. The documentation is clear and concise, and the community is friendly and helpful.
+While it seemed too good to be true at first, I decided to give Astro a try for my blog after reading a [manifesto]([https://justfuckinguseastro.com](https://justfuckinguseastro.com))? about not overingineering content sites. I was pleasantly surprised by how easy it was to get started. The documentation is clear and concise, and the community is friendly and helpful.
 
 I'ts amazing how Astro allows you to build a blog without the overhead of a full React application. With Astro, you can write your content in Markdown or MDX, and easily add interactive components using your favorite framework. Astro also includes built-in optimizations for performance and SEO, so you don't have to worry about configuring everything yourself.
 
@@ -21,6 +21,6 @@ Overall, I found that Astro was the perfect solution for building my blog. It al
 
 Here are some of my experiments with Astro would you like to give them a try.
 
-\- \[Launchpad\]([https://roicort.github.io/launchpad/](https://roicort.github.io/launchpad/))
+[Launchpad]([https://roicort.github.io/launchpad/](https://roicort.github.io/launchpad/))
 
-\- \[Said Yes!\]([https://roicort.github.io/saidyes/](https://roicort.github.io/saidyes/))
+[Said Yes!]([https://roicort.github.io/saidyes/](https://roicort.github.io/saidyes/))
