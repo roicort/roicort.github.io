@@ -15,7 +15,9 @@ interface Props {
 
 import { withBase } from "../utils/slugify";
 
-const { title, description, actions = [], role, location } = Astro.props as Props;
+const isExternal = (path: string) => /^[a-z][a-z0-9+.-]*:/i.test(path) || path.startsWith('//');
+
+const { title, description, actions = [], role, location } = Astro.props as Props; 
 ---
 
 <section class="flex flex-col justify-between" style="min-height: calc(100vh - (var(--grid-cell) / 2));">
@@ -27,8 +29,6 @@ const { title, description, actions = [], role, location } = Astro.props as Prop
       >
         {title}
       </div>
-
-      <!-- Author info grid beneath the title -->
     </div>
   </div>
 
@@ -47,12 +47,23 @@ const { title, description, actions = [], role, location } = Astro.props as Prop
         {actions.length > 0 && (
           <div class="mt-0 md:mt-0 flex flex-col md:flex-row md:items-start md:justify-end gap-3">
             {actions.map((action) => (
-              <a
-                class="text-xs 2xl:text-lg text-base-900 hover:text-base-500 font-bold uppercase inline-block px-4 py-2"
-                href={withBase(action.href)}
-              >
-                {action.label}
-              </a>
+              isExternal(action.href) ? (
+                <a
+                  class="text-xs 2xl:text-lg text-base-900 hover:text-base-500 font-bold uppercase inline-block px-4 py-2"
+                  href={action.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {action.label}
+                </a>
+              ) : (
+                <a
+                  class="text-xs 2xl:text-lg text-base-900 hover:text-base-500 font-bold uppercase inline-block px-4 py-2"
+                  href={withBase(action.href)}
+                >
+                  {action.label}
+                </a>
+              )
             ))}
           </div>
         )}
