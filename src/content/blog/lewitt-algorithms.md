@@ -1,14 +1,11 @@
 ---
-title: 'Coloreando Películas (ES)'
+title: 'Lewitt y los algoritmos (ES)'
 description: >-
   "En 1969, Sol LeWitt publicó "Declaraciones sobre el arte conceptual", en las que afirma que: "Las ideas pueden ser obras de arte" y "No es necesario que todas las ideas se hagan físicas".
 pubDate: 'Jul 08 2022'
 heroImage: https://sal-bucket-1.s3.amazonaws.com/wp-content/uploads/2021/01/30135426/lewitt5-1.jpg
 tags:
-  - AI
-  - Movies
-  - Video Processing
-  - Computer Vision
+  - Essays
 ---
 
 En 1969, Sol LeWitt publicó "Declaraciones sobre el arte conceptual", en las que afirma que: "Las ideas pueden ser obras de arte" y "No es necesario que todas las ideas se hagan físicas". 
@@ -47,6 +44,6 @@ Qué podriamos traducir en lenguaje de programación a:
 
 y como resultado final con más elementos podemos obtener el siguiente resultado.
 
-<iframe id="frame11" src="https://openprocessing.org/sketch/1482269/embed/?plusEmbedHash=ZWVjZWYxN2NlZDRjNGMxMTJmZDI2MWMzZDFiZjMwMjIxYTBlZDBlZTBjYzBjN2U5YmNmZGIwNjhlOTBmYjNhNGMxYjI4NDJlYTVkNDUyYzIwMDYxMTM5MGFkMjk0MWI4M2FiYzVkMmVkZGE5OTU2Y2RhM2Y2OTE4OTJmMjFiYzVUQmNYRzVvdVhIQThlMzAvdUNQM3lwQmlEc0k3WnkyMkJMTTdpV014RFNud2F5ek5iN1phMlM0U0prTCtnL296VkRZWTE1c0hwTXlkR29jL3MwcXJWUT09&plusEmbedFullscreen=true"></iframe>
+<iframe id="frame11" src="https://openprocessing.org/sketch/1482269/embed/?plusEmbedHash=ZWVjZWYxN2NlZDRjNGMxMTJmZDI2MWMzZDFiZjMwMjIxYTBlZDBlZTBjYzBjN2U5YmNmZGIwNjhlOTBmYjNhNGMxYjI4NDJlYTVkNDUyYzIwMDYxMTM5MGFkMjk0MWI4M2FiYzVkMmVkZGE5OTU2Y2RhM2Y2OTE4OTJmMjFiYzVUQmNYRzVvdVhIQThlMzAvdUNQM3lwQmlEc0k3WnkyMkJMTTdpV014RFNud2F5ek5iN1phMlM0U0prTCtnL296VkRZWTE1c0hwTXlkR29jL3MwcXJWUT09&plusEmbedFullscreen=true" style="width:100%; height:100vh;"></iframe>
 
 No ha de soprendernos que LeWitt puede ser considerado uno de los grandes precursores del Arte Generativo incluso cuando su obra se dió en un contexto en que la computación aún no estaba extendida a todos los ámbitos y el acceso a ella no era sencillo.

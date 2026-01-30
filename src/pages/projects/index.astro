@@ -16,7 +16,7 @@ const site = await getSite();
 	<section class="content-shell py-12 space-y-10">
 		<header class="space-y-2">
 			<p class="text-sm uppercase tracking-[0.35em] text-muted">Projects</p>
-			<h1 class="text-4xl font-semibold text-ink">Product stories and recent experiences</h1>
+			<h1 class="text-4xl font-semibold text-ink">Academic & Research</h1>
 			<p class="text-muted max-w-3xl">
 				Sharing results, learnings, and design structures that power creative and technical teams.
 			</p>
@@ -27,7 +27,7 @@ const site = await getSite();
 			<div class="space-y-6">
 				{projects.map((project) => (
 					<a
-						class="group block w-full overflow-hidden rounded-[28px] border border-[color:var(--color-border)] bg-[color:var(--color-surface)] p-5 shadow-none transition duration-200 hover:-translate-y-[2px] hover:shadow-[0_18px_45px_color-mix(in_oklab,var(--color-ink)_25%,transparent)] md:flex md:items-center md:gap-6"
+						class="group block w-full overflow-hidden border border-[color:var(--color-border)] bg-[color:var(--color-surface)] p-5 shadow-none transition duration-200 hover:-translate-y-[2px] hover:shadow-[0_18px_45px_color-mix(in_oklab,var(--color-ink)_25%,transparent)] md:flex md:items-stretch md:gap-6"
 						href={withBase(`/projects/${project.id}/`)}
 					>
 						<div class="flex flex-1 flex-col">
@@ -52,7 +52,7 @@ const site = await getSite();
 							</div>
 						</div>
 						{project.data.heroImage && (
-							<figure class="mt-4 h-32 w-full overflow-hidden rounded-[18px] border border-[color:var(--color-border)] bg-[color-mix(in_oklab,var(--color-surface)_80%,transparent)] md:mt-0 md:h-24 md:w-32">
+							<figure class="mt-4 h-32 w-full overflow-hidden border border-[color:var(--color-border)] bg-[color-mix(in_oklab,var(--color-surface)_80%,transparent)] md:mt-0 md:h-auto md:self-stretch md:w-32">
 								<Image src={project.data.heroImage} alt={project.data.title} width={220} height={140} class="h-full w-full object-cover" />
 							</figure>
 						)}
