@@ -31,6 +31,20 @@ const projects = defineCollection({
 		}),
 });
 
+const artworks = defineCollection({
+	// Load Markdown and MDX files in the `src/content/artworks/` directory.
+	loader: glob({ base: './src/content/artworks', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		z.object({
+			title: z.string(),
+			description: z.string(),
+			pubDate: z.coerce.date(),
+			updatedDate: z.coerce.date().optional(),
+			heroImage: image().optional(),
+			tags: z.array(z.string()).default([]),
+		}),
+});
+
 const site = defineCollection({
 	loader: file('src/site-config.yml'),
 });
@@ -66,4 +80,4 @@ const cv = defineCollection({
   }),
 });
 
-export const collections = { blog, cv, projects, site };
+export const collections = { blog, cv, projects, artworks, site };

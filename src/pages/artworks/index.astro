@@ -1,0 +1,73 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+import { getSite } from '../../utils/consts';
+import { withBase } from '../../utils/slugify';
+
+const artworks = (await getCollection('artworks')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+const site = await getSite();
+
+// Mosaic pattern: includes full-width band, rectangles and true squares
+const mosaicLayout = [
+	'md:col-span-6 band',       // full-width band
+	'md:col-span-4 rect',       // rectangle
+	'md:col-span-3 aspect-square square', // true square (1:1)
+	'md:col-span-2 rect',       // small rectangle
+	'md:col-span-3 aspect-square square', // square
+];
+
+---
+
+<PageLayout title={`artworks · ${site.title}`} description="Explore case studies and recent builds.">
+	<section class="content-shell py-12 space-y-10">
+		<header class="space-y-2">
+			<p class="text-sm uppercase tracking-[0.35em] text-muted">artworks</p>
+			<h1 class="text-4xl font-semibold text-ink">Product stories and recent experiences</h1>
+			<p class="text-muted max-w-3xl">
+				Sharing results, learnings, and design structures that power creative and technical teams.
+			</p>
+		</header>
+		{artworks.length === 0 ? (
+			<p class="text-muted">No artworks published yet.</p>
+		) : (
+			<div class="portfolio-feed layout-mosaic grid grid-flow-dense grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
+				{artworks.map((project, i) => {
+					const layout = mosaicLayout[i % mosaicLayout.length];
+					const isSquare = layout.includes('aspect-square');
+					const isBand = layout.includes('band');
+					return (
+						<article class={`project ${layout}`}>
+							<a href={withBase(`/artworks/${project.id}/`)} class="project-link group block overflow-hidden border border-[color:var(--color-border)] bg-[color:var(--color-surface)] transition duration-200 transform hover:-translate-y-[2px] hover:shadow-[0_8px_20px_color-mix(in_oklab,var(--color-ink)_10%,transparent)]">
+								<div class={isSquare ? 'aspect-square w-full overflow-hidden relative' : `project-thumbnail w-full overflow-hidden relative ${isBand ? 'h-56 md:h-64' : 'h-48 md:h-52'}`}>
+									{project.data.heroImage ? (
+										<Image src={project.data.heroImage} alt={project.data.title} width={isSquare ? 1280 : 1280} height={isSquare ? 1280 : 960} class="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105" />
+									) : (
+										<div class="absolute inset-0 flex items-center justify-center text-sm text-muted bg-muted/8">No image</div>
+									)}
+									<div class="absolute inset-0 flex items-end p-4 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity duration-200">
+										<div>
+											<p class="text-xs font-semibold uppercase tracking-[0.35em] text-muted text-white/80">Project</p>
+											<h3 class="text-white text-lg font-semibold drop-shadow-sm">{project.data.title}</h3>
+											<p class="mt-1 text-sm text-white/80 hidden sm:block">{project.data.description}</p>
+											<time class="mt-2 block text-xs uppercase tracking-[0.4em] text-white/80" datetime={project.data.pubDate.toISOString()}>
+												{project.data.pubDate.toLocaleDateString('es-MX', {
+													day: 'numeric',
+													month: 'short',
+													year: 'numeric',
+												})}
+											</time>
+										</div>
+									</div>
+								</div>
+							</a>
+						</article>
+					);
+				})}
+			</div>
+		)}
+	</section>
+</PageLayout>
