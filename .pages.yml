@@ -146,10 +146,10 @@ content:
         type: rich-text
 
   # Sections is a YAML file containing a list of section objects.
-  - name: sections
-    label: Sections
+  - name: CV
+    label: CV
     type: file
-    path: src/content/sections.yml
+    path: src/content/cv.yml
 
   - name: site
     label: Configuration
