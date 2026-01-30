@@ -9,7 +9,7 @@ updatedDate: 2022-01-14
 One of the virtues of computational art is that it allows the creation of incredibly precise works, with measurements in which all the strokes coincide perfectly and the margin of error is minimal. However, this medium also allows the creation of random and imperfect works in which there is freedom to make mistakes.
 
 #### Unsquare composition #0
-![Tux, the Linux mascot](/images/unsquare/N0.png)
+![Tux, the Linux mascot](../../assets/art/unsquare/N0.png)
 
 Inspired by Jazz, *Unsquare composition* I experiments with the notion of non-squared rhythmic forms, where freedom and improvisation take as a premise the idea of an imperfection where we can also find harmony. Please do not expect perfect results.
 
