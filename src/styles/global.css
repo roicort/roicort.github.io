@@ -264,11 +264,6 @@
 		padding-right: calc(var(--grid-cell) / 2);
 	}
 
-	.post-hero-image img {
-		border-radius: var(--radius-card);
-		border: 1px solid var(--color-border);
-	}
-
 	.post-article {
 		display: grid;
 		gap: 1.25rem;

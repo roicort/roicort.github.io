@@ -30,10 +30,12 @@ const aProps = { href, 'aria-label': `Ver ${title}`, ...(isExternal ? { rel: 'no
 		{image && (
 			<figure class="lg:col-span-full relative overflow-hidden bg-[color-mix(in_oklab,var(--color-ink)_4%,var(--color-surface))]">
 				{typeof image === 'string' ? (
-					<img
+					<Image
 						src={image}
 						alt={imageAlt}
 						loading="lazy"
+						width={1200}
+						height={700}
 						class="lg:col-span-full aspect-12/7 object-cover object-top w-full transition duration-400 group-hover:scale-[1.02]"
 					/>
 				) : (

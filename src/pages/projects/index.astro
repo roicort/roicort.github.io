@@ -12,7 +12,7 @@ const projects = (await getCollection('projects')).sort(
 const site = await getSite();
 ---
 
-<PageLayout title={`Projects · ${site.title}`} description="Explore case studies and recent builds.">
+<PageLayout title={`Projects · ${site.author.name}`} description="Explore case studies and recent builds.">
 	<section class="content-shell py-12 space-y-10">
 		<header class="space-y-2">
 			<p class="text-sm uppercase tracking-[0.35em] text-muted">Projects</p>
@@ -27,7 +27,7 @@ const site = await getSite();
 			<div class="space-y-6">
 				{projects.map((project) => (
 					<a
-						class="group block w-full overflow-hidden border border-[color:var(--color-border)] bg-[color:var(--color-surface)] p-5 shadow-none transition duration-200 hover:-translate-y-[2px] hover:shadow-[0_18px_45px_color-mix(in_oklab,var(--color-ink)_25%,transparent)] md:flex md:items-stretch md:gap-6"
+						class="group block w-full overflow-hidden border border-[color:var(--color-border)] bg-[color:var(--color-surface)] p-5 shadow-none transition duration-300 ease-in-out hover:-translate-y-1 focus-within:-translate-y-1 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-border md:flex md:items-stretch md:gap-6"
 						href={withBase(`/projects/${project.id}/`)}
 					>
 						<div class="flex flex-1 flex-col">
@@ -53,7 +53,7 @@ const site = await getSite();
 						</div>
 						{project.data.heroImage && (
 							<figure class="mt-4 h-32 w-full overflow-hidden border border-[color:var(--color-border)] bg-[color-mix(in_oklab,var(--color-surface)_80%,transparent)] md:mt-0 md:h-auto md:self-stretch md:w-32">
-								<Image src={project.data.heroImage} alt={project.data.title} width={220} height={140} class="h-full w-full object-cover" />
+								<Image src={project.data.heroImage} alt={project.data.title} width={220} height={140} class="h-full w-full object-cover transition duration-400 group-hover:scale-[1.02]" />
 							</figure>
 						)}
 						<time class="sr-only" />

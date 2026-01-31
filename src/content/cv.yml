@@ -1,11 +1,3 @@
-- id: "profile"
-  heading: "Profile"
-  items:
-    - title: "Rodrigo Cortez"
-      description: "Graduate in Information Technology in Sciences (UNAM). I work at the intersection of science and the arts, focusing on data science, AI, music technology, and interdisciplinary research."
-    - title: "Download CV (PDF)"
-      href: "/images/cv.pdf"
-
 - id: "currently"
   heading: "Currently"
   items:
@@ -20,6 +12,9 @@
     - title: "B.Sc. in Information Technology in Sciences"
       description: "Area of Engineering and Sciences, Universidad Nacional Autónoma de México (UNAM)."
       datetime: "2015–2019"
+    - title: "M.Sc. in Computer Science"
+      description: "IIMAS, Universidad Nacional Autónoma de México (UNAM)."
+      datetime: "2024-2026 (expected)"
 
 - id: "research"
   heading: "Research"
