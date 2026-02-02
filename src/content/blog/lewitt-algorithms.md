@@ -20,7 +20,7 @@ Todo estos conceptos, desde un lenguaje básico, una serie de instrucciones y no
 
 Un claro ejemplo es *Wall Drawing #118* cuyas instrucciones son las siguientes.
 
-<iframe id="frame19" src="https://www.youtube-nocookie.com/embed/ky9K_-NJoPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe id="frame19" src="https://www.youtube-nocookie.com/embed/ky9K_-NJoPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width:100%; height:100vh;" allowfullscreen></iframe>
 
 * En una superficie de pared, cualquier tramo continuo de pared, con un lápiz duro, coloque cincuenta puntos al azar.  
 

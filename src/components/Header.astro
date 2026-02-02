@@ -5,6 +5,13 @@ import HeaderLink from "./HeaderLink.astro";
 const site = await getSite();
 import SearchModal from "./SearchModal.astro";
 import ThemeToggle from "./ThemeToggle.astro";
+
+const headerLinks = [
+  { href: "/", text: "Home" },
+  { href: "/blog", text: "Blog" },
+  { href: "/projects", text: "Projects" },
+  { href: "/artworks", text: "Art" },
+]
 ---
 
 <header class="site-header">
@@ -21,10 +28,9 @@ import ThemeToggle from "./ThemeToggle.astro";
     <div
       class="hidden md:flex items-center gap-2 text-xs 2xl:text-lg text-base-900 hover:text-base-500 font-bold uppercase"
     >
-      <HeaderLink href="/">Home</HeaderLink>
-      <HeaderLink href="/blog">Blog</HeaderLink>
-      <HeaderLink href="/projects">Projects</HeaderLink>
-      <HeaderLink href="/artworks">Art</HeaderLink>
+      {headerLinks.map(link => (
+        <HeaderLink href={link.href}>{link.text}</HeaderLink>
+      ))}
 
       <SearchModal class="text-xs 2xl:text-lg text-base-900 hover:text-base-500 font-bold uppercase" />
 
@@ -51,10 +57,9 @@ import ThemeToggle from "./ThemeToggle.astro";
     <div id="mobile-nav" role="dialog" aria-label="Mobile navigation" aria-hidden="true" style="display:none;" class="fixed inset-0 z-[1000] p-8 overflow-auto bg-[var(--color-paper)] text-[var(--color-ink)]">
       <button id="mobile-close" aria-label="Close navigation" style="position:absolute;right:1rem;top:1rem;" class="text-xs 2xl:text-lg font-bold uppercase">Close</button>
       <div class="flex flex-col gap-2 items-start text-xs 2xl:text-lg hover:text-base-500 font-bold uppercase">
-        <HeaderLink href="/">Home</HeaderLink>
-        <HeaderLink href="/blog">Blog</HeaderLink>
-        <HeaderLink href="/projects">Projects</HeaderLink>
-        <HeaderLink href="/about">About</HeaderLink>
+        {headerLinks.map(link => (
+          <HeaderLink href={link.href}>{link.text}</HeaderLink>
+        ))}
         <SearchModal class="text-xs 2xl:text-lg hover:text-base-500 font-bold uppercase" />
         <a class="text-xs 2xl:text-lg hover:text-base-500 font-bold uppercase" href="https://github.com/roicort/launchpad" target="_blank" rel="noopener noreferrer">GitHub</a>
         <button id="mobile-debug" aria-label="Toggle debug borders" class="text-xs 2xl:text-lg hover:text-base-500 font-bold uppercase">Debug</button>
