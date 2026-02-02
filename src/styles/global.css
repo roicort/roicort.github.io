@@ -280,4 +280,8 @@
 		margin: 0.25rem 0;
 		line-height: 1.2;
 	}
+	.post-article .prose code {
+		white-space: pre-wrap;
+		word-break: break-word;
+	}
 }
