@@ -16,7 +16,7 @@ export default defineConfig({
     mdx(), sitemap(), pagefind(), icon(),
     umami({
       endpointUrl: "https://analytics.up.railway.app",
-      id: "8b83e7b8-d4fb-4f8b-b46e-545b85448b99",
+      id: "4dd96b84-7174-4b92-8cc6-69a1f103816d",
     }),
   ],
 
