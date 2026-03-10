@@ -6,21 +6,31 @@
     - title: "Consultant"
       description: "Instituto del Sur Urbano (NGO)."
 
+- id: "experience"
+  heading: "Experience"
+  items:
+    - title: "Head Of Data Science"
+      description: "In charge of Data Policies and Data Science projects for the City of Monterrey, N.L., México."
+      datetime: "2022 - 2024"
+    - title: "Software Developer"
+      description: "AbstractStudios, México."
+      datetime: "2019 - 2020"
+
 - id: "education"
   heading: "Education"
   items:
     - title: "B.Sc. in Information Technology in Sciences"
       description: "Area of Engineering and Sciences, Universidad Nacional Autónoma de México (UNAM)."
-      datetime: "2015–2019"
+      datetime: "2015 - 2019"
     - title: "M.Sc. in Computer Science"
       description: "IIMAS, Universidad Nacional Autónoma de México (UNAM)."
-      datetime: "2024-2026 (expected)"
+      datetime: "2024 - 2026 (expected)"
 
 - id: "research"
   heading: "Research"
   items:
     - title: "Research internship — Coevolutionary strategies for parameter adjustment in multi-objective evolutionary algorithms"
-      description: "UTFSM–UAB, Chile."
+      description: "UTFSM-UAB, Chile."
       datetime: "2018"
 
 - id: "teaching"
