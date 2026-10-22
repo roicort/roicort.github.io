@@ -1,7 +1,11 @@
 author:
   name: Rodrigo Cortez
   role: Data Scientist 
-  bio:  Graduate in Information Technology in Sciences (UNAM). I work at the intersection of science and humanities, focusing on data science, AI, music technology, and interdisciplinary research. Experienced in machine learning, statistical analysis, and data visualization.
+  bio: I am a data scientist and AI researcher based in Mexico. I studied B.Sc. in Information Technology for Science (Data Science) and a M.Sc. in Computer Science with a focus on AI at UNAM. I work at the intersection of AI, data science, ethics, art and humanities.
+  longBio:
+    - I work with machine learning, statistical analysis, data visualization, and GIS, and build web applications in my spare time with Astro, React, and Vue. I also work with cloud platforms such as GCP and Railway and explore creative technology, including algorithmic composition and interactive projects.
+    - My work focuses on solving real-world problems applying AI and data science with a focus on ethical and societal implications.
+    - I have worked across public-sector data science, software development, and consulting. From 2022 to 2024, I led data science work for the City of Monterrey, focusing on data policies and GovTech projects. I currently conduct research at PCIC-UNAM and consult for Instituto del Sur Urbano.
   location: Ciudad de México
 
 social:
@@ -13,4 +17,4 @@ social:
     href: "https://openprocessing.org/user/233138"
   - id: "email"
     label: "Email"
-    href: "mailto:rodrigo.cortez@example.com"
+    href: "mailto:rodrigo.cortez@proton.me"
